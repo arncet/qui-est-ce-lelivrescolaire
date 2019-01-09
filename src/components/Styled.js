@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes, css } from 'styled-components'
 
 const SHOW_ANIMTION = keyframes`
   0% {
@@ -84,9 +84,9 @@ export const StyledAnimatedTitleWrapper = styled.div`
   height: 100vh;
   color: #FFF;
   z-index: 1;
-  animation: ${HIDE_TITLE_ANIMTION} 0.5s 3s ease forwards;
   box-shadow: 0px -11px 45px -6px rgba(0,0,0,0.75);
   background-color: #00B3DF;
+  animation: ${({ hide }) => hide ? css`${HIDE_TITLE_ANIMTION} 0.5s 0.5s ease forwards` : ''}
 `
 
 export const StyledAnimatedTitle = styled.div`
@@ -280,4 +280,10 @@ export const StyledLlsTexte = styled.div`
   letter-spacing: 4px;
   text-transform: uppercase;
   font-size: 13px;
+`
+
+export const StyledLoader = styled.div`
+  margin-top: 20px;
+  transition: opacity 0.5s ease;
+  opacity: ${({ isLoaded }) => isLoaded ? 0 : 1};
 `

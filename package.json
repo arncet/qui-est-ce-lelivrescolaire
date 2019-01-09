@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://arncet.github.io/qui-est-ce-lelivrescolaire",
   "dependencies": {
+    "image-preload": "^1.0.6",
     "lodash": "^4.17.11",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
