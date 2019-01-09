@@ -3,10 +3,12 @@ import random from 'lodash/random'
 import size from 'lodash/size'
 
 // Fixtures
-import PERSONS from '../fixtures/Persons'
+import PERSONS_OLD from '../fixtures/old'
+import PERSONS_NEW from '../fixtures/new'
 
 // Components
 import Flashcard from './Flashcard'
+import Settings from './Settings'
 
 // Styles
 import {
@@ -20,9 +22,12 @@ import {
 class WhoIs extends Component {
   constructor(props) {
     super(props)
+    const persons = PERSONS_NEW
     this.state = {
-      person: PERSONS[random(0, size(PERSONS) - 1)],
-      flipped: false
+      persons,
+      person: persons[random(0, size(persons) - 1)],
+      flipped: false,
+      difficulty: '0',
     }
   }
 
@@ -30,17 +35,24 @@ class WhoIs extends Component {
 
   reroll = () => {
     // If the card if flipped wait flip back aniamtion to reroll the person
+    const { persons } = this.state
     const delayBeforeReroll = this.state.flipped ? 130 : 0
     this.setState({ flipped: false })
     this.timeout = setTimeout(() => {
-      this.setState({ person: PERSONS[random(0, size(PERSONS) - 1)] })
+      this.setState({ person: persons[random(0, size(persons) - 1)] })
     }, delayBeforeReroll)
   }
 
   flip = () => this.setState(({ flipped }) => ({ flipped: !flipped }))
 
+  onChangeDifficulty = e => {
+    const difficulty = e.target.value
+    const persons = difficulty === '0' ? PERSONS_NEW : [...PERSONS_NEW, ...PERSONS_OLD]
+    this.setState({ difficulty, persons }, this.reroll)
+  }
+
   render() {
-    const { person, flipped } = this.state
+    const { person, flipped, difficulty } = this.state
 
     return (
       <StyledWhoIs>
@@ -50,6 +62,7 @@ class WhoIs extends Component {
         </StyledTopTitle>
         <Flashcard person={person} flipped={flipped} flip={this.flip} />
         <StyledNextButton onClick={this.reroll}>Nouveau</StyledNextButton>
+        <Settings onChangeDifficulty={this.onChangeDifficulty} difficulty={difficulty} />
       </StyledWhoIs>
     )
   }

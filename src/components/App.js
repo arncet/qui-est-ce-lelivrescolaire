@@ -7,7 +7,8 @@ import AnimatedTitle from './AnimatedTitle'
 import WhoIs from './WhoIs'
 
 // Fixtures
-import PERSONS from '../fixtures/Persons'
+import PERSONS_OLD from '../fixtures/old'
+import PERSONS_NEW from '../fixtures/new'
 
 const GlobalStyled = createGlobalStyle`
   body {
@@ -20,17 +21,19 @@ class App extends Component {
   state = { isLoading: true }
 
   componentDidMount = () => {
-    const images = PERSONS.map(person => person.picture)
+    const images = [
+      ...PERSONS_OLD.map(person => person.picture),
+      ...PERSONS_NEW.map(person => person.picture)
+    ]
     preload(images, { onComplete: this.onComplete })
   }
 
   onComplete = () => this.setState({ isLoading: false })
 
-  onSingleImageComplete = () => this.setState({ isLoading: false })
+  onSingleImageComplete = console.log
 
   render() {
     const { isLoading } = this.state
-    console.log({ isLoading })
     return (
       <>
         <AnimatedTitle isLoaded={!isLoading} />

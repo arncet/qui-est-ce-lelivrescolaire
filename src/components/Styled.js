@@ -287,3 +287,39 @@ export const StyledLoader = styled.div`
   transition: opacity 0.5s ease;
   opacity: ${({ isLoaded }) => isLoaded ? 0 : 1};
 `
+
+export const StyledSettings  = styled.div`
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #ffffff52;
+  border-radius: 3px;
+`
+
+export const StyledSettingsTitle = styled.div`
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 1px solid;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+`
+
+export const StyledSetting  = styled.div`
+  border-bottom: 1px dotted #FFF;
+  padding: 0px 0px 6px 6px;
+`
+
+export const StyledSettingName = styled.div`
+  text-transform: uppercase;
+  font-size: 13px;
+`
+
+export const StyledLabel = styled.label`
+  font-size: 14px;
+`
+
+export const StyledCheckbox = styled.input`
+  margin-right: 5px;
+`
