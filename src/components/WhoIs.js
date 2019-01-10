@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import random from 'lodash/random'
+import shuffle from 'lodash/shuffle'
 import size from 'lodash/size'
+import preload from 'image-preload'
 
 // Fixtures
 import PERSONS_OLD from '../fixtures/old'
@@ -22,25 +23,39 @@ import {
 class WhoIs extends Component {
   constructor(props) {
     super(props)
-    const persons = PERSONS_NEW
+    const persons = shuffle(PERSONS_NEW)
     this.state = {
       persons,
-      person: persons[random(0, size(persons) - 1)],
+      current: 0,
       flipped: false,
-      difficulty: '0',
+      difficulty: '0'
     }
+    preload([persons[0].picture, persons[1].picture])
   }
 
   componentWillUnmount = () => this.timeout && clearTimeout(this.timeout)
 
   reroll = () => {
+    const persons = shuffle(this.state.persons)
+    preload([persons[0].picture])
+    this.setState({ persons, current: 0 })
+
     // If the card if flipped wait flip back aniamtion to reroll the person
-    const { persons } = this.state
-    const delayBeforeReroll = this.state.flipped ? 130 : 0
+    const { flipped } = this.state
+    const delay = flipped ? 130 : 0
     this.setState({ flipped: false })
-    this.timeout = setTimeout(() => {
-      this.setState({ person: persons[random(0, size(persons) - 1)] })
-    }, delayBeforeReroll)
+    this.timeout = setTimeout(() => this.setState({ person: persons[0] }, () => preload([persons[1].picture])), delay)
+  }
+
+  next = () => {
+    const { current, persons } = this.state
+    if (current === size(persons) - 1) this.reroll()
+    else {
+      const next = current + 1
+      const nextNextPerson = persons[next + 1]
+      nextNextPerson && preload([nextNextPerson.picture])
+      this.setState({ current: next })
+    }
   }
 
   flip = () => this.setState(({ flipped }) => ({ flipped: !flipped }))
@@ -48,11 +63,11 @@ class WhoIs extends Component {
   onChangeDifficulty = e => {
     const difficulty = e.target.value
     const persons = difficulty === '0' ? PERSONS_NEW : [...PERSONS_NEW, ...PERSONS_OLD]
-    this.setState({ difficulty, persons }, this.reroll)
+    this.setState({ difficulty, persons: shuffle(persons) }, this.reroll)
   }
 
   render() {
-    const { person, flipped, difficulty } = this.state
+    const { current, persons, flipped, difficulty } = this.state
 
     return (
       <StyledWhoIs>
@@ -60,8 +75,8 @@ class WhoIs extends Component {
           <StyledQuiEstCeLogo src='images/QuiEstce.png' />
           <StyledLlsTexte>Lelivrescolaire.fr</StyledLlsTexte>
         </StyledTopTitle>
-        <Flashcard person={person} flipped={flipped} flip={this.flip} />
-        <StyledNextButton onClick={this.reroll}>Nouveau</StyledNextButton>
+        <Flashcard person={persons[current]} flipped={flipped} flip={this.flip} />
+        <StyledNextButton onClick={this.next}>Suivant</StyledNextButton>
         <Settings onChangeDifficulty={this.onChangeDifficulty} difficulty={difficulty} />
       </StyledWhoIs>
     )

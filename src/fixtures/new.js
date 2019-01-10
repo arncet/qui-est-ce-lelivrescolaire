@@ -7,7 +7,7 @@ export default [
   { id: 6, name: 'Celine Grauby', picture: 'images/pictures/new/celine-de-geo.jpg' },
   { id: 7, name: 'Charline Pilon', picture: 'images/pictures/new/charline-cm.jpg' },
   { id: 8, name: 'Clement Teyssier', picture: 'images/pictures/new/clement-communaute.jpeg' },
-  { id: 9, name: 'Elanzize Assoumani', picture: 'images/pictures/new/elanzize-support' },
+  { id: 9, name: 'Elanzize Assoumani', picture: 'images/pictures/new/elanzize-support.png' },
   { id: 10, name: 'Elsa Kendzierski', picture: 'images/pictures/new/elsa-cm.jpg' },
   { id: 11, name: 'Emilie Blanchard', picture: 'images/pictures/new/emilie.jpg' },
   { id: 12, name: 'Fabien Pinel', picture: 'images/pictures/new/fabien-dev.jpg' },
