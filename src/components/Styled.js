@@ -208,6 +208,7 @@ export const StyledFlashcardFront = styled.div`
 export const StyledFlashcardBack = styled.div`
   ${commonFaceStyle}
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #003c67;
@@ -220,6 +221,27 @@ export const StyledFlashcardBack = styled.div`
 
 export const StyledPersonName = styled.div`
   font-size: 30px;
+`
+
+export const StyledPersonJob = styled.div`
+  font-size: 22px;
+  margin-top: 10px;
+  padding-top: 10px;
+  position: relative;
+
+  :before{
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: #FFF;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: -2px;
+  }
+
+  br {
+    line-height: 38px;
+  }
 `
 
 export const StyledNextButton = styled.button`

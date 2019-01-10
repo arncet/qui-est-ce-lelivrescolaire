@@ -35,16 +35,20 @@ class WhoIs extends Component {
 
   componentWillUnmount = () => this.timeout && clearTimeout(this.timeout)
 
-  reroll = () => {
-    const persons = shuffle(this.state.persons)
-    preload([persons[0].picture])
-    this.setState({ persons, current: 0 })
-
+  updateCurrent = current => {
     // If the card if flipped wait flip back aniamtion to reroll the person
     const { flipped } = this.state
     const delay = flipped ? 130 : 0
     this.setState({ flipped: false })
-    this.timeout = setTimeout(() => this.setState({ person: persons[0] }, () => preload([persons[1].picture])), delay)
+    this.timeout = setTimeout(() => this.setState({ current }), delay)
+  }
+
+  reroll = () => {
+    const persons = shuffle(this.state.persons)
+    preload([persons[0].picture])
+    this.setState({ persons, current: 0 })
+    preload([persons[1].picture])
+    this.updateCurrent(0)
   }
 
   next = () => {
@@ -54,7 +58,7 @@ class WhoIs extends Component {
       const next = current + 1
       const nextNextPerson = persons[next + 1]
       nextNextPerson && preload([nextNextPerson.picture])
-      this.setState({ current: next })
+      this.updateCurrent(next)
     }
   }
 
@@ -62,7 +66,7 @@ class WhoIs extends Component {
 
   onChangeDifficulty = e => {
     const difficulty = e.target.value
-    const persons = difficulty === '0' ? PERSONS_NEW : [...PERSONS_NEW, ...PERSONS_OLD]
+    const persons = difficulty === '0' ? PERSONS_NEW : PERSONS_OLD
     this.setState({ difficulty, persons: shuffle(persons) }, this.reroll)
   }
 
