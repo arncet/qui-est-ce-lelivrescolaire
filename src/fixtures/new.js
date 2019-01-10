@@ -39,7 +39,7 @@ export default [
   { id: 38, name: 'Jef Bussiere', job: 'Directeur éditorial numérique<br/>🖥 🏓 🎮', picture: 'images/pictures/new/jef.png' },
   { id: 39, name: 'Mélina Boyer', job: 'Assistante éditoriale<br/>👩🏻‍🎓 🏃🏻‍♀️ 📕', picture: 'images/pictures/new/melina-assistant-edito.jpeg' },
   { id: 40, name: 'Camille Berthet', job: 'Graphiste Histoire<br/> 👩🏻‍🎨 🏰 ➰', picture: 'images/pictures/new/camille-pao-his.jpg' },
-  { id: 41, name: 'Chloe Van santy', job: 'Infographiste<br/>👩🏼‍🎨 👩🏽‍🎓 🌈', picture: 'images/pictures/new/chloe-infog.jpg' },
+  { id: 41, name: 'Chloé Van santy', job: 'Infographiste<br/>👩🏼‍🎨 👩🏽‍🎓 🌈', picture: 'images/pictures/new/chloe-infog.jpg' },
   { id: 42, name: 'Marlène Zablocki', job: 'Graphiste Physique-Chimie<br/>👩🏻‍🎨 🖌 🧪', picture: 'images/pictures/new/marlene-pao-pc.jpg' },
   { id: 43, name: 'Elisabeth Frouart', job: 'Graphiste Français<br/>👩🏻‍🎨 📚 ✏️', picture: 'images/pictures/new/elisabeth-pao-fr.jpg' },
   { id: 44, name: 'Alice Derammelaere', job: 'Graphiste Géographie<br/>👩🏻‍🎨 🗺 🚢', picture: 'images/pictures/new/alice-pao-geo.jpg' },
