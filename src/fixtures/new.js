@@ -32,7 +32,7 @@ export default [
   { id: 31, name: 'Roxane Bonnardel', job: 'Assistante éditoriale Histoire-Géo<br/>👩🏻‍🎓 🏰 🗺', picture: 'images/pictures/new/roxane-assistant-edito.jpg' },
   { id: 32, name: 'Sophie Girard', job: 'Graphiste SES<br/>👩🏻 🎨 💵', picture: 'images/pictures/new/sophie.png' },
   { id: 33, name: 'Véronique Joly', job: 'Assistante de gestion<br/>🧚‍♀️ 📆 🦹🏼‍♀️', picture: 'images/pictures/new/vero.jpg' },
-  { id: 34, name: 'Bérenger Ciras', job: 'Business developer<br/>🕴 💰', picture: 'images/pictures/new/berenger-bizdev.jpeg' },
+  { id: 34, name: 'Bérenger Ciras', job: 'Business developer<br/>🕴 💰 🚅', picture: 'images/pictures/new/berenger-bizdev.jpeg' },
   { id: 35, name: 'Anne Weiss', job: 'Directrice éditoriale SES<br/>💸 🏓 🤸🏻‍♀️', picture: 'images/pictures/new/anne-de-ses.jpg' },
   { id: 36, name: 'Virgile Lahu', job: 'Directeur éditorial Maths<br/>🧮 📈 🏸', picture: 'images/pictures/new/virgile-de-mat.jpg' },
   { id: 37, name: 'Pierre Andre Pailler', job: 'Directeur éditorial Français<br/>📙 📓 📚', picture: 'images/pictures/new/pierre-andre-de-fr.png' },
