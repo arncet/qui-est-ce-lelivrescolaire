@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/qui-est-ce-lelivrescolaire/static/js/runtime~main.e2b6bbb7.js"
   },
   {
-    "revision": "1bbd4f1d670a31b6e5d2",
-    "url": "/qui-est-ce-lelivrescolaire/static/js/main.1bbd4f1d.chunk.js"
+    "revision": "829d0be429c2a7ac370b",
+    "url": "/qui-est-ce-lelivrescolaire/static/js/main.829d0be4.chunk.js"
   },
   {
     "revision": "6ad5ca9428eef6d1abfd",
     "url": "/qui-est-ce-lelivrescolaire/static/js/1.6ad5ca94.chunk.js"
   },
   {
-    "revision": "607c1b429d816580e7727f433d200417",
+    "revision": "1830f0290c341b57a883376a42026f64",
     "url": "/qui-est-ce-lelivrescolaire/index.html"
   }
 ];
