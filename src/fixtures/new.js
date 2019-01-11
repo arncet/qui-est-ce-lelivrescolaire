@@ -60,5 +60,7 @@ export default [
   { id: 59, name: 'Phillippe De Sousa', job: 'Directeur d’ouvrage Mathématiques<br/>🧮 𝑓 🛶', picture: 'images/pictures/new/phillippe.png' },
   { id: 59, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' },
   { id: 60, name: 'Marc-Émilien Poncet', job: 'Assistant édito<br/>📚 📕 📖', picture: 'images/pictures/new/marco-assistant-edito.jpg' },
-  { id: 61, name: 'Baptiste Fray', job: 'Directeur d’ouvrage Physique-Chimie<br/>👨‍🔬 🧪 ⚗️', picture: 'images/pictures/new/baptiste-fray.png' }
+  { id: 61, name: 'Amélie Marc', job: 'Assistante édito<br/>📚 📖 📕', picture: 'images/pictures/new/amelie-assistant-edito.jpg' },
+  { id: 61, name: 'Baptiste Fray', job: 'Directeur d’ouvrage Physique-Chimie<br/>👨‍🔬 🧪 ⚗️', picture: 'images/pictures/new/baptiste-fray.png' },
+  { id: 61, name: 'Claire Olive', job: 'Directeur d’ouvrage SVT<br/>🌸 🌿 🍃', picture: 'images/pictures/new/claire-olive.jpg' }
 ]
