@@ -1,9 +1,9 @@
 export default [
   { id: 1, name: 'Alejandra Adeikalam', job: 'Directrice artistique<br/>👩🏽‍🎨 🎨 🖌', picture: 'images/pictures/new/alejandra.JPG' },
-  { id: 2, name: 'Arnaud Cetoute', job: 'Développeur web front-end<br/>💻 🎮', picture: 'images/pictures/new/arnaud-dev.jpg' },
+  { id: 2, name: 'Arnaud Cetoute', job: 'Développeur web front-end<br/>💻 🎮 🐢', picture: 'images/pictures/new/arnaud-dev.jpg' },
   { id: 3, name: 'Audrey Boulanger', job: 'Customer happiness<br/>😊 🤗 📞', picture: 'images/pictures/new/audrey-support.jpeg' },
   { id: 4, name: 'Baptiste Bouché',  job: 'Support<br/>☎️ 🇯🇵', picture: 'images/pictures/new/baptiste-support.jpg' },
-  { id: 5, name: 'Catherine Benini', job: 'Graphiste Anglais<br/>👩🏻‍🎨 🇬🇧󠁧󠁢󠁥', picture: 'images/pictures/new/catherine-pao-ang.png' },
+  { id: 5, name: 'Catherine Benini', job: 'Graphiste Anglais<br/>👩🏻‍🎨 🇬🇧 📓󠁧󠁢󠁥', picture: 'images/pictures/new/catherine-pao-ang.png' },
   { id: 6, name: 'Celine Grauby', job: 'Directrice éditoriale Géographie<br/>🌍 🌎', picture: 'images/pictures/new/celine-de-geo.jpg' },
   { id: 7, name: 'Charline Pilon', job: 'Community management<br/>🤗 👩🏻‍🏫 💬', picture: 'images/pictures/new/charline-cm.jpg' },
   { id: 8, name: 'Clément Teyssier', job: 'Animateur de la communauté<br/>🎉 🎊 🎬', picture: 'images/pictures/new/clement-communaute.jpeg' },
