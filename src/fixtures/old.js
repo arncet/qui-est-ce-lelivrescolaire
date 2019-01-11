@@ -6,7 +6,7 @@ export default [
   { id: 5, name: 'Catherine Benini', picture: 'images/pictures/old/catherine.png' },
   { id: 6, name: 'Celine Grauby', picture: 'images/pictures/old/celine.png' },
   { id: 7, name: 'Charline Pilon', picture: 'images/pictures/old/charline.png' },
-  { id: 8, name: 'Clement Teyssier et Vrigile Lahu', picture: 'images/pictures/old/clement_et_virgile.png' },
+  { id: 8, name: 'Clement Teyssier et Virgile Lahu', picture: 'images/pictures/old/clement_et_virgile.png' },
   { id: 9, name: 'Elanzize Assoumani', picture: 'images/pictures/old/elanzize.png' },
   { id: 10, name: 'Elsa Kendzierski', picture: 'images/pictures/old/elsa.png' },
   { id: 11, name: 'Emilie Blanchard', picture: 'images/pictures/old/emilie.png' },
