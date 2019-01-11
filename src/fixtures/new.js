@@ -4,7 +4,7 @@ export default [
   { id: 3, name: 'Audrey Boulanger', job: 'Customer happiness<br/>😊 🤗 📞', picture: 'images/pictures/new/audrey-support.jpeg' },
   { id: 4, name: 'Baptiste Bouché',  job: 'Support<br/>☎️ 🇯🇵 🎩', picture: 'images/pictures/new/baptiste-support.jpg' },
   { id: 5, name: 'Catherine Benini', job: 'Graphiste Anglais<br/>👩🏻‍🎨 🇬🇧 📓󠁧󠁢󠁥', picture: 'images/pictures/new/catherine-pao-ang.png' },
-  { id: 6, name: 'Celine Grauby', job: 'Directrice éditoriale Géographie<br/>🌍 🌎', picture: 'images/pictures/new/celine-de-geo.jpg' },
+  { id: 6, name: 'Celine Grauby', job: 'Directrice éditoriale Géographie<br/>🌍 🌎 🌏', picture: 'images/pictures/new/celine-de-geo.jpg' },
   { id: 7, name: 'Charline Pilon', job: 'Community management<br/>🤗 👩🏻‍🏫 💬', picture: 'images/pictures/new/charline-cm.jpg' },
   { id: 8, name: 'Clément Teyssier', job: 'Animateur de la communauté<br/>🎉 🎊 🎬', picture: 'images/pictures/new/clement-communaute.jpeg' },
   { id: 9, name: 'Elanzize Assoumani', job: 'Support<br/>☎️ 👟 ⌚️', picture: 'images/pictures/new/elanzize-support.png' },
