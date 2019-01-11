@@ -80,8 +80,8 @@ export const StyledAnimatedTitleWrapper = styled.div`
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   color: #FFF;
   z-index: 1;
   box-shadow: 0px -11px 45px -6px rgba(0,0,0,0.75);
@@ -93,16 +93,19 @@ export const StyledAnimatedTitle = styled.div`
   position: relative;
   transform: scale3d(0, 0, 0) rotate3d(0, 1, 0, 90deg);
   animation: ${SHOW_ANIMTION} 0.75s 0.5s ease forwards;
+  max-width: 80%;
 `
 
 export const StyledAnimatedImage = styled.img`
   position: relative;
   z-index: 1;
+  max-width: 100%;
 `
 
 export const StyledAnimatedImageRelief = styled.img`
   position: absolute;
   left: 0px;
+  max-width: 100%;
 
   :nth-of-type(2) { top: 18px; left: 18px; }
   :nth-of-type(3) { top: 16px; left: 16px; }
@@ -124,6 +127,12 @@ export const StyledAnimatedSubtitle = styled.div`
   padding-top: 22px;
   text-shadow: 0 0 17px transparent;
   animation: ${SHINE_ANIMTION} 0.5s 1.5s ease, ${SHINE_ANIMTION} 0.75s 2.14s ease;
+  max-width: 80%;
+
+  @media (max-width: 480px) {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
 `
 
 export const StyledAnimatedSubtitleLetter = styled.span`
@@ -164,6 +173,11 @@ export const StyledFlashcard = styled.div`
   perspective: 1000px;
   border-radius: 8px;
   cursor: pointer;
+
+  @media (max-width: 480px) {
+    width: 300px;
+    height: 400px;
+  }
 `
 
 export const StyledFlashcardInner = styled.div`
@@ -281,6 +295,10 @@ export const StyledNextButton = styled.button`
   :hover:before{
     transform: skew(30deg) translate3d(300px, 0px, 0px);
   }
+
+  @media (max-width: 480px) {
+    margin-top: 30px;
+  }
 `
 
 export const StyledLlsLogo = styled.img`
@@ -292,10 +310,18 @@ export const StyledLlsLogo = styled.img`
 export const StyledTopTitle = styled.div`
   margin-bottom: 50px;
   text-align: center;
+
+  @media (max-width: 480px) {
+    margin-bottom: 30px;
+  }
 `
 
 export const  StyledQuiEstCeLogo = styled.img`
   width: 200px;
+
+  @media (max-width: 480px) {
+    width: 120px;
+  }
 `
 
 export const StyledLlsTexte = styled.div`
@@ -311,6 +337,10 @@ export const StyledSettings  = styled.div`
   padding: 10px;
   background-color: #ffffff52;
   border-radius: 3px;
+
+  @media (max-width: 480px) {
+    position: static;
+  }
 `
 
 export const StyledSettingsTitle = styled.div`
