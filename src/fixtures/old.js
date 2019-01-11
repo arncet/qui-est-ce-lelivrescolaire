@@ -29,7 +29,7 @@ export default [
   { id: 28, name: 'Oliver Tolfts', picture: 'images/pictures/old/oliver.png' },
   { id: 29, name: 'Raphael Taieb', picture: 'images/pictures/old/raphael.png' },
   { id: 30, name: 'Robin Lesagnol', picture: 'images/pictures/old/robin.png' },
-  { id: 31, name: 'Roxane ???', picture: 'images/pictures/old/roxanne.png' },
+  { id: 31, name: 'Roxane Bonnardel', picture: 'images/pictures/old/roxanne.png' },
   { id: 32, name: 'Sophie Girard', picture: 'images/pictures/old/sophie.png' },
   { id: 33, name: 'Veronique Joly', picture: 'images/pictures/old/veronique.png' }
 ]
