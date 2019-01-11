@@ -58,5 +58,7 @@ export default [
   { id: 57, name: 'Laurence Souvignet', job: 'Directrice d’ouvrage Espagnol<br/>💃🏻 🇪🇸 🕺🏻', picture: 'images/pictures/new/laurence.jpg' },
   { id: 58, name: 'Mathilde Serra', job: 'Webdesigner<br/>👩‍🎨 💻 🎨', picture: 'images/pictures/new/mathilde.jpg' },
   { id: 59, name: 'Phillippe De Sousa', job: 'Directeur d’ouvrage Mathématiques<br/>🧮 𝑓 🛶', picture: 'images/pictures/new/phillippe.png' },
-  { id: 59, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' }
+  { id: 59, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' },
+  { id: 60, name: 'Marco', job: 'Assistant édito<br/>📚 📕 📖', picture: 'images/pictures/new/marco-assistant-edito.jpg' },
+  { id: 61, name: 'Baptiste Fray', job: 'Directeur d’ouvrage Physique-Chimie<br/>👨‍🔬 🧪 ⚗️', picture: 'images/pictures/new/baptiste-fray.png' }
 ]
