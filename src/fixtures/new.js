@@ -35,7 +35,7 @@ export default [
   { id: 34, name: 'Bérenger Ciras', job: 'Business developer<br/>🕴 💰 🚅', picture: 'images/pictures/new/berenger-bizdev.jpeg' },
   { id: 35, name: 'Anne Weiss', job: 'Directrice éditoriale SES<br/>💸 🏓 🤸🏻‍♀️', picture: 'images/pictures/new/anne-de-ses.jpg' },
   { id: 36, name: 'Virgile Lahu', job: 'Directeur éditorial Maths<br/>🧮 📈 🏸', picture: 'images/pictures/new/virgile-de-mat.jpg' },
-  { id: 37, name: 'Pierre Andre Pailler', job: 'Directeur éditorial Français<br/>📙 📓 📚', picture: 'images/pictures/new/pierre-andre-de-fr.png' },
+  { id: 37, name: 'Pierre André Pailler', job: 'Directeur éditorial Français<br/>📙 📓 📚', picture: 'images/pictures/new/pierre-andre-de-fr.png' },
   { id: 38, name: 'Jef Bussiere', job: 'Directeur éditorial numérique<br/>🖥 🏓 🎮', picture: 'images/pictures/new/jef.png' },
   { id: 39, name: 'Mélina Boyer', job: 'Assistante éditoriale<br/>👩🏻‍🎓 🏃🏻‍♀️ 📕', picture: 'images/pictures/new/melina-assistant-edito.jpeg' },
   { id: 40, name: 'Camille Berthet', job: 'Graphiste Histoire<br/> 👩🏻‍🎨 🏰 ➰', picture: 'images/pictures/new/camille-pao-his.jpg' },
