@@ -26,7 +26,7 @@ export default [
   { id: 38, name: 'Jef Bussiere', job: 'Directeur éditorial numérique<br/>🖥 🏓 🎮', picture: 'images/pictures/new/jef.png' },
   { id: 39, name: 'Mélina Boyer', job: 'Assistante éditoriale<br/>👩‍🎓 🏃🏻‍ 📕', picture: 'images/pictures/new/melina-assistant-edito.jpeg' },
   { id: 42, name: 'Marlène Zablocki', job: 'Graphiste Physique-Chimie<br/>👩‍🎨 🖌 🧪', picture: 'images/pictures/new/marlene-pao-pc.jpg' },
-  { id: 43, name: 'Elisabeth Frouart', job: 'Graphiste Français<br/>👩‍🎨 📚 ✏️', picture: 'images/pictures/new/elisabeth-pao-fr.jpg' },
+  { id: 43, name: 'Elisabeth Frouart', job: 'Graphiste Langues Vivantes<br/>👩‍🎨 🇪🇸 ✏️', picture: 'images/pictures/new/elisabeth-pao-fr.jpg' },
   { id: 46, name: 'Anaëlle Dos santos', job: 'Infographiste<br/>👩‍🎨 😸 🖋', picture: 'images/pictures/new/anaelle-infog.jpg' },
   { id: 48, name: 'Maximilien Derrier', job: 'DevOps<br/>🧙 🧝 🧔 💻 🦸‍ 🤓 🖨 👨‍🚒 🧞‍ 👹 👨‍🚀 🛰 🚀 📡', picture: 'images/pictures/new/max-dev.jpeg' },
   { id: 49, name: 'Thomas Schell', job: 'Développeur web front-end<br/>💻 🏇🏻 🎾', picture: 'images/pictures/new/thomas-dev.png' },

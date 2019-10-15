@@ -24,5 +24,6 @@ export default [
   { id: 34, name: 'Anaëlle Dos santos', picture: 'images/pictures/old/anaelle.jpg' },
   { id: 35, name: 'Augustin Debouy', picture: 'images/pictures/old/augustin.jpeg' },
   { id: 36, name: 'Clementine Gauthier', picture: 'images/pictures/old/clementine.jpg' },
-  { id: 67, name: 'Eleonore Peres', picture: 'images/pictures/old/eleonore.jpg' }
+  { id: 67, name: 'Eleonore Peres', picture: 'images/pictures/old/eleonore.jpg' },
+  { id: 43, name: 'Elisabeth Frouart', picture: 'images/pictures/old/elisabeth.jpg' },
 ]
