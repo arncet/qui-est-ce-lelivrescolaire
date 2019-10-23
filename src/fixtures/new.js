@@ -43,4 +43,5 @@ export default [
   { id: 65, name: 'Augustin Debouy', job: 'Support<br/>🍻 🏎 🚄', picture: 'images/pictures/new/augustin.jpeg' },
   { id: 66, name: 'Clementine Gauthier', job: 'Assistante éditoriale<br/>🍺 🏉 🍊', picture: 'images/pictures/new/clementine.jpg' },
   { id: 67, name: 'Eleonore Peres', job: 'Assistante éditoriale<br/>🌳 🐧 🔬', picture: 'images/pictures/new/eleonore.jpg' },
+  { id: 68, name: 'Nicolas Perruche-Serda', job: 'Support<br/>🍻 😎 💥', picture: 'images/pictures/new/nicolas.jpg' },
 ]
