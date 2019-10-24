@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/qui-est-ce-lelivrescolaire/precache-manifest.0db71b22aff82f37ee837fd843b5fb1f.js"
+  "/qui-est-ce-lelivrescolaire/precache-manifest.2817df49ce985f1ca52bc0905e550fd9.js"
 );
 
 workbox.clientsClaim();
