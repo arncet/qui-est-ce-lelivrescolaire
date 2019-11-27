@@ -369,3 +369,29 @@ export const StyledLabel = styled.label`
 export const StyledCheckbox = styled.input`
   margin-right: 5px;
 `
+export const StyledTetris = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #00B3DF;
+`
+
+export const StyledTetrisGrid = styled.div`
+  width: calc(100vw / 1.5);
+  height: 100vw;
+  max-width: calc(700px / 1.5);
+  max-height: 700px;
+  background-color: #FFF;
+`
+
+export const StyledBlock = styled.div`
+  width: 10%;
+  height: calc(100% / 15);
+  background-color: #000;
+`

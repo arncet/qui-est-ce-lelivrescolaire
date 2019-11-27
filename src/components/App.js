@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components'
 // Components
 import AnimatedTitle from './AnimatedTitle'
 import WhoIs from './WhoIs'
+// import Tetris from './Tetris'
 
 const GlobalStyled = createGlobalStyle`
   body {
@@ -16,6 +17,7 @@ const App = () =>
   <>
     <AnimatedTitle/>
     <WhoIs />
+    {/* <Tetris /> */}
     <GlobalStyled />
   </>
 
