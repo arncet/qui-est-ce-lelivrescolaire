@@ -1,11 +1,19 @@
 {
-  "main.js": "/qui-est-ce-lelivrescolaire/static/js/main.388cca56.chunk.js",
-  "main.js.map": "/qui-est-ce-lelivrescolaire/static/js/main.388cca56.chunk.js.map",
-  "static/js/1.f4f44068.chunk.js": "/qui-est-ce-lelivrescolaire/static/js/1.f4f44068.chunk.js",
-  "static/js/1.f4f44068.chunk.js.map": "/qui-est-ce-lelivrescolaire/static/js/1.f4f44068.chunk.js.map",
-  "runtime~main.js": "/qui-est-ce-lelivrescolaire/static/js/runtime~main.e2b6bbb7.js",
-  "runtime~main.js.map": "/qui-est-ce-lelivrescolaire/static/js/runtime~main.e2b6bbb7.js.map",
-  "index.html": "/qui-est-ce-lelivrescolaire/index.html",
-  "precache-manifest.aaaf7f2644d5e0503500d155d6a71e55.js": "/qui-est-ce-lelivrescolaire/precache-manifest.aaaf7f2644d5e0503500d155d6a71e55.js",
-  "service-worker.js": "/qui-est-ce-lelivrescolaire/service-worker.js"
+  "files": {
+    "main.js": "/qui-est-ce-lelivrescolaire/static/js/main.65c996d5.chunk.js",
+    "main.js.map": "/qui-est-ce-lelivrescolaire/static/js/main.65c996d5.chunk.js.map",
+    "runtime-main.js": "/qui-est-ce-lelivrescolaire/static/js/runtime-main.62b876ef.js",
+    "runtime-main.js.map": "/qui-est-ce-lelivrescolaire/static/js/runtime-main.62b876ef.js.map",
+    "static/js/2.abf17c58.chunk.js": "/qui-est-ce-lelivrescolaire/static/js/2.abf17c58.chunk.js",
+    "static/js/2.abf17c58.chunk.js.map": "/qui-est-ce-lelivrescolaire/static/js/2.abf17c58.chunk.js.map",
+    "index.html": "/qui-est-ce-lelivrescolaire/index.html",
+    "precache-manifest.00111eab8440b3e580e2b32fa365d078.js": "/qui-est-ce-lelivrescolaire/precache-manifest.00111eab8440b3e580e2b32fa365d078.js",
+    "service-worker.js": "/qui-est-ce-lelivrescolaire/service-worker.js",
+    "static/js/2.abf17c58.chunk.js.LICENSE.txt": "/qui-est-ce-lelivrescolaire/static/js/2.abf17c58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62b876ef.js",
+    "static/js/2.abf17c58.chunk.js",
+    "static/js/main.65c996d5.chunk.js"
+  ]
 }
