@@ -1,4 +1,4 @@
-export default [
+const old = [
   { id: 1, name: 'Alejandra Adeikalam', picture: 'images/pictures/old/alejandra.png' },
   { id: 2, name: 'Arnaud Cetoute', picture: 'images/pictures/old/arnaud.png' },
   { id: 3, name: 'Audrey Boulanger', picture: 'images/pictures/old/audrey.png' },
@@ -27,5 +27,8 @@ export default [
   { id: 67, name: 'Eleonore Peres', picture: 'images/pictures/old/eleonore.jpg' },
   { id: 43, name: 'Elisabeth Frouart', picture: 'images/pictures/old/elisabeth.jpg' },
   { id: 43, name: 'Vincent Bourgeois', picture: 'images/pictures/old/vincent.jpg' },
-  { id: 44, name: 'Jessica Dubuisson', picture: 'images/pictures/old/jessica.jpg' }
+  { id: 44, name: 'Jessica Dubuisson', picture: 'images/pictures/old/jessica.jpg' },
+  { id: 45, name: 'Mellie Chapatte', picture: 'images/pictures/old/mellie.jpg' }
 ]
+
+export default old

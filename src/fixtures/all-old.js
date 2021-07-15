@@ -1,4 +1,4 @@
-export default [
+const allOld = [
   { id: 1, name: 'Alejandra Adeikalam', picture: 'images/pictures/old/alejandra.png' },
   { id: 2, name: 'Arnaud Cetoute', picture: 'images/pictures/old/arnaud.png' },
   { id: 3, name: 'Audrey Boulanger', picture: 'images/pictures/old/audrey.png' },
@@ -35,5 +35,8 @@ export default [
   { id: 34, name: 'Anaëlle Dos santos', picture: 'images/pictures/old/anaelle.jpg' },
   { id: 35, name: 'Augustin Debouy', picture: 'images/pictures/old/augustin.jpeg' },
   { id: 36, name: 'Clementine Gauthier', picture: 'images/pictures/old/clementine.jpg' },
-  { id: 67, name: 'Eleonore Peres', picture: 'images/pictures/old/eleonore.jpg' }
+  { id: 67, name: 'Eleonore Peres', picture: 'images/pictures/old/eleonore.jpg' },
+  { id: 68, name: 'Mellie Chapatte', picture: 'images/pictures/old/mellie.jpg' }
 ]
+
+export default allOld

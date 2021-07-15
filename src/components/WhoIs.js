@@ -76,7 +76,7 @@ class WhoIs extends Component {
     return (
       <StyledWhoIs>
         <StyledTopTitle>
-          <StyledQuiEstCeLogo src='images/QuiEstce.png' />
+          <StyledQuiEstCeLogo src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
           <StyledLlsTexte>Lelivrescolaire.fr</StyledLlsTexte>
         </StyledTopTitle>
         <Flashcard person={persons[current]} flipped={flipped} flip={this.flip} />

@@ -5,11 +5,11 @@
   "homepage": "http://arncet.github.io/qui-est-ce-lelivrescolaire",
   "dependencies": {
     "image-preload": "^1.0.6",
-    "lodash": "^4.17.11",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3",
-    "styled-components": "^4.1.3"
+    "lodash": "4.17.21",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "styled-components": "5.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,6 +29,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "3.2.3"
   }
 }

@@ -13,17 +13,17 @@ import {
 const AnimatedTitle = () =>
   <StyledAnimatedTitleWrapper>
     <StyledAnimatedTitle>
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImageRelief src='images/QuiEstce.png' />
-      <StyledAnimatedImage src='images/QuiEstce.png' />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImageRelief src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
+      <StyledAnimatedImage src={`${process.env.PUBLIC_URL}/images/QuiEstce.png`} />
     </StyledAnimatedTitle>
     <StyledAnimatedSubtitle>
       <StyledAnimatedSubtitleLetter>L</StyledAnimatedSubtitleLetter>

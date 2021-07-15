@@ -201,7 +201,7 @@ const commonFaceStyle = `
 
 export const StyledFlashcardFront = styled.div`
   ${commonFaceStyle}
-  background-image: ${({ picture }) => `url('${picture}')`};
+  background-image: ${({ picture }) => `url('${process.env.PUBLIC_URL}/${picture}')`};
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

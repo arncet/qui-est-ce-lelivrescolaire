@@ -1,11 +1,11 @@
-export default [
+const allNews = [
   { id: 1, name: 'Alejandra Adeikalam', job: 'Directrice artistique<br/>👩‍🎨 🎨 🖌', picture: 'images/pictures/new/alejandra.jpg' },
   { id: 2, name: 'Arnaud Cetoute', job: 'Développeur web front-end<br/>💻 🎮 🐢', picture: 'images/pictures/new/arnaud-dev.png' },
   { id: 3, name: 'Audrey Boulanger', job: 'Customer happiness<br/>😊 🤗 📞', picture: 'images/pictures/new/audrey-support.jpeg' },
   { id: 4, name: 'Baptiste Bouché',  job: 'Support<br/>☎️ 🇯🇵 🎩', picture: 'images/pictures/new/baptiste-support.jpg' },
   { id: 5, name: 'Catherine Benini', job: 'Graphiste Anglais<br/>👩‍🎨 🇬🇧 📓󠁧󠁢󠁥', picture: 'images/pictures/new/catherine-pao-ang.png' },
   { id: 6, name: 'Celine Grauby', job: 'Directrice éditoriale Géographie<br/>🌍 🍲 🐕', picture: 'images/pictures/new/celine-de-geo.jpg' },
-  { id: 7, name: 'Charline Pilon', job: 'Community management<br/>🤗 👩‍🏫 <img src="images/emoji-charline.gif" style="width:26px; vertical-align: middle" />', picture: 'images/pictures/new/charline-cm.jpg' },
+  { id: 7, name: 'Charline Pilon', job: `Community management<br/>🤗 👩‍🏫 <img src="${process.env.PUBLIC_URL}/images/emoji-charline.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/charline-cm.jpg' },
   { id: 8, name: 'Clément Teyssier', job: 'Animateur de la communauté<br/>🎉 🎊 🎬', picture: 'images/pictures/new/clement-communaute.jpeg' },
   { id: 9, name: 'Elanzize Assoumani', job: 'Support<br/>☎️ 👟 ⌚️', picture: 'images/pictures/new/elanzize-support.jpg' },
   { id: 10, name: 'Elsa Kendzierski', job: 'Community management<br/>🤗 👩‍🏫 💬', picture: 'images/pictures/new/elsa-cm.jpg' },
@@ -18,7 +18,7 @@ export default [
   { id: 17, name: 'Jonathan Banon', job: 'Directeur technique<br/>🖥 🤓 🖨', picture: 'images/pictures/new/jonathan.png' },
   { id: 18, name: 'Julia Poirier', job: 'Directrice éditoriale Anglais<br/>🎡 🇬🇧 🇨🇳󠁧󠁢󠁥', picture: 'images/pictures/new/julia-de-ang.jpeg' },
   { id: 19, name: 'Julie Meister', job: 'Graphiste Maths<br/>👩‍🎨 🧮 🖍', picture: 'images/pictures/new/julie-m-pao-mat.jpg' },
-  { id: 20, name: 'Julie Sardin', job: 'Directrice éditoriale Histoire<br/>🏰 🗽<img src="images/sardin.png" style="width:26px; vertical-align: middle" />', picture: 'images/pictures/new/julie-s-de-his.jpg' },
+  { id: 20, name: 'Julie Sardin', job: `Directrice éditoriale Histoire<br/>🏰 🗽<img src="${process.env.PUBLIC_URL}/images/sardin.png" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/julie-s-de-his.jpg' },
   { id: 21, name: 'Laura Dinin', job: 'Chef de projet web<br/>📱 💻 ⚽️', picture: 'images/pictures/new/laura-produit.jpg' },
   { id: 22, name: 'Lionel Douthe', job: "Directeur d'ouvrage Physique-Chimie<br/>👨🏻‍🔬 🔭 👓", picture: 'images/pictures/new/lionel.png' },
   { id: 23, name: 'Lisa Berkani', job: 'Chef de projet web<br/>📱 💻 👩‍🎓', picture: 'images/pictures/new/lisa-produit.png' },
@@ -63,5 +63,8 @@ export default [
   { id: 61, name: 'Amélie Marc', job: 'Assistante édito<br/>📚 📖 📕', picture: 'images/pictures/new/amelie-assistant-edito.jpg' },
   { id: 62, name: 'Baptiste Fray', job: 'Directeur d’ouvrage Physique-Chimie<br/>👨‍🔬 🧪 ⚗️', picture: 'images/pictures/new/baptiste-fray.png' },
   { id: 63, name: 'Claire Olive', job: 'Directeur d’ouvrage SVT<br/>🌸 🌿 🍃', picture: 'images/pictures/new/claire-olive.jpg' },
-  { id: 63, name: 'Aure Line Lecoq', job: 'Infographiste<br/>👩‍🎨 🎨 🖌', picture: 'images/pictures/new/aureline_lecoq.jpg' }
+  { id: 64, name: 'Aure Line Lecoq', job: 'Infographiste<br/>👩‍🎨 🎨 🖌', picture: 'images/pictures/new/aureline_lecoq.jpg' },
+  { id: 65, name: 'Mellie Chapatte', job: `Lead éditrice numérique<br/>🌸 🍬 <img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/mellie.jpg' }
 ]
+
+export default allNews

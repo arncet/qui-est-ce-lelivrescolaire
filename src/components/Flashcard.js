@@ -18,7 +18,7 @@ const Flashcard = ({ person: { name, picture, job }, flip, flipped }) =>
       <StyledFlashcardBack>
         <StyledPersonName>{name}</StyledPersonName>
         {job && <StyledPersonJob dangerouslySetInnerHTML={{ __html: job }} />}
-        <StyledLlsLogo src='images/lelivrescolaire.jpg' />
+        <StyledLlsLogo src={`${process.env.PUBLIC_URL}/images/lelivrescolaire.jpg`} />
       </StyledFlashcardBack>
     </StyledFlashcardInner>
   </StyledFlashcard>

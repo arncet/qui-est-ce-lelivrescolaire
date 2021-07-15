@@ -1,4 +1,4 @@
-export default [
+const news = [
   { id: 1, name: 'Alejandra Adeikalam', job: 'Directrice artistique<br/>👩‍🎨 🎨 🖌', picture: 'images/pictures/new/alejandra.jpg' },
   { id: 2, name: 'Arnaud Cetoute', job: 'Développeur web front-end<br/>💻 🎮 🐢', picture: 'images/pictures/new/arnaud-dev.png' },
   { id: 3, name: 'Audrey Boulanger', job: 'Customer happiness<br/>😊 🤗 📞', picture: 'images/pictures/new/audrey-support.jpeg' },
@@ -44,5 +44,8 @@ export default [
   { id: 66, name: 'Clementine Gauthier', job: 'Assistante éditoriale<br/>🍺 🏉 🍊', picture: 'images/pictures/new/clementine.jpg' },
   { id: 67, name: 'Eleonore Peres', job: 'Assistante éditoriale<br/>🌳 🐧 🔬', picture: 'images/pictures/new/eleonore.jpg' },
   { id: 68, name: 'Nicolas Perruche-Serda', job: 'Support<br/>🍻 😎 💥', picture: 'images/pictures/new/nicolas.jpg' },
-  { id: 69, name: 'Jessica Dubuisson', job: 'Directrice éditoriale Histoire<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' }
+  { id: 69, name: 'Jessica Dubuisson', job: 'Directrice éditoriale Histoire<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' },
+  { id: 70, name: 'Mellie Chapatte', job: `Lead éditrice numérique<br/>🌸 🍬 <img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/mellie.jpg' }
 ]
+
+export default news
