@@ -21,7 +21,7 @@
 - Aller dans le dossier `cd /Users/Mellie/Desktop/qui-est-ce-lelivrescolaire`
 - Voir la liste des commandes avec : `ntl`
 - Selectionner `start`
-- Faire un `CTRL + C` pour arrêter
+- Faire un `CTRL + C` pour arrêter.
 
 ## Deployer : 
 
