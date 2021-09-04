@@ -14,3 +14,18 @@
 - Ajouter les infos dans `src/fixtures/all-news.js`, `src/fixtures/all-old.js`, `src/fixtures/new.js` et `src/fixtures/old.js`
 - Lancer la commande `npm run deploy`
 - Enjoy 😉
+
+## Tester en local : 
+
+- Ouvrir le terminal
+- Aller dans le dossier `cd /Users/Mellie/Desktop/qui-est-ce-lelivrescolaire`
+- Voir la liste des commandes avec : `ntl`
+- Selectionner `start`
+- Faire un `CTRL + C` pour arrêter
+
+## Deployer : 
+
+- Ouvrir le terminal
+- Aller dans le dossier `cd /Users/Mellie/Desktop/qui-est-ce-lelivrescolaire`
+- Voir la liste des commandes avec : `ntl`
+- Selectionner `deploy`
