@@ -23,7 +23,7 @@ const news = [
   { id: 22, name: 'Phillippe De Sousa', job: 'Directeur d’ouvrage Mathématiques<br/>🧮 𝑓 🛶', picture: 'images/pictures/new/phillippe.png' },
   { id: 23, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' },
   { id: 24, name: 'Anaïs Payet', job: 'Développeuse mobile iOS<br/>🍍 🤷‍♀️ 🏝', picture: 'images/pictures/new/anais.jpg' },
-  { id: 25, name: 'Clementine Gauthier', job: 'Assistante éditoriale<br/>🍺 🏉 🍊', picture: 'images/pictures/new/clementine.jpg' },
+  { id: 25, name: 'Clémentine Gauthier', job: 'Assistante éditoriale<br/>🍺 🏉 🍊', picture: 'images/pictures/new/clementine.jpg' },
   { id: 26, name: 'Nicolas Perruche-Serda', job: 'Support<br/>🍻 😎 💥', picture: 'images/pictures/new/nicolas.jpg' },
   { id: 27, name: 'Jessica Dubuisson', job: 'Chef de projet éditorial<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' },
   { id: 28, name: 'Mellie Chapatte', job: `Lead éditrice numérique<br/>🌸 🍬 <img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/mellie.jpg' },
@@ -31,7 +31,8 @@ const news = [
   { id: 31, name: 'Laura Dupra', job: 'Rédactrice / CM<br/>🤷‍♀️ 🦙 ✨', picture: 'images/pictures/new/Laura_Dupra_new.jpg' },
   { id: 32, name: 'Alexane Biot', job: 'Chef de projet marketing opérationnel<br/>🏃‍♀️ ⛰️ 🍫', picture: 'images/pictures/new/Alexane_Biot_new.jpg' },
   { id: 33, name: 'Dylan Pissard', job: 'Responsable de la Brigade d’Accompagnement des Profs (BAP)<br/>⛷️ 🎢 🐶 🍆', picture: 'images/pictures/new/Dylan_Pissard_new.jpg' },
-  { id: 34, name: 'Dorian Gentine', job: 'Développeur web front-end<br/>💻 🍙 🥊', picture: 'images/pictures/new/Dorian_Gentine_new.jpg' }
+  { id: 34, name: 'Dorian Gentine', job: 'Développeur web front-end<br/>💻 🍙 🥊', picture: 'images/pictures/new/Dorian_Gentine_new.jpg' },
+  { id: 35, name: 'Chloé Van santy', job: 'Infographiste<br/>👩‍🎨 👩‍🎓 🌈', picture: 'images/pictures/new/chloe-infog.jpg' },
 ]
 
 export default news
