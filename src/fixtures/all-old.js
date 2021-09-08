@@ -17,7 +17,7 @@ const allOld = [
   { id: 16, name: 'Joëlle Dutreilly', picture: 'images/pictures/old/joelle.png' },
   { id: 17, name: 'Jonathan Banon', picture: 'images/pictures/old/jonathan.png' },
   { id: 18, name: 'Julia Poirier', picture: 'images/pictures/old/julia.png' },
-  { id: 19, name: 'Julie Meister', picture: 'images/pictures/old/julie_meister.png' },
+  { id: 19, name: 'Julie Meister', picture: 'images/pictures/old/Julie_Meister_old.jpg' },
   { id: 20, name: 'Julie Sardin', picture: 'images/pictures/old/julie_sardin.png' },
   { id: 21, name: 'Laura Dinin', picture: 'images/pictures/old/laura.png' },
   { id: 22, name: 'Lionel Douthe', picture: 'images/pictures/old/lionel.png' },
@@ -36,7 +36,11 @@ const allOld = [
   { id: 35, name: 'Augustin Debouy', picture: 'images/pictures/old/augustin.jpeg' },
   { id: 36, name: 'Clementine Gauthier', picture: 'images/pictures/old/clementine.jpg' },
   { id: 67, name: 'Eleonore Peres', picture: 'images/pictures/old/eleonore.jpg' },
-  { id: 68, name: 'Mellie Chapatte', picture: 'images/pictures/old/mellie.jpg' }
+  { id: 68, name: 'Mellie Chapatte', picture: 'images/pictures/old/mellie.jpg' },
+  { id: 69, name: 'David Dechaux', picture: 'images/pictures/old/David_Dechaux_old.jpeg' },
+  { id: 70, name: 'Laura Dupra', picture: 'images/pictures/old/Laura_Dupra_old.jpg' },
+  { id: 71, name: 'Alexane Biot', picture: 'images/pictures/old/Alexane_Biot_old.jpeg' },
+  { id: 72, name: 'Dylan Pissard', picture: 'images/pictures/old/Dylan_Pissard_old.jpg' }
 ]
 
 export default allOld
