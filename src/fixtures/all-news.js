@@ -75,6 +75,8 @@ const allNews = [
   { id: 73, name: 'Eleonore Peres', job: 'Assistante éditoriale<br/>🌳 🐧 🔬', picture: 'images/pictures/new/eleonore.jpg' },
   { id: 74, name: 'Nicolas Perruche-Serda', job: 'Support<br/>🍻 😎 💥', picture: 'images/pictures/new/nicolas.jpg' },
   { id: 75, name: 'Jessica Dubuisson', job: 'Directrice éditoriale Histoire<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' }
+  { id: 76, name: 'Guillaume Côte', job: 'Assistant éditorial<br/>📉 🤡 🧮', picture: 'images/pictures/new/Guillaume_Cote_new.png' }
+  { id: 77, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' }
 ]
 
 export default allNews
