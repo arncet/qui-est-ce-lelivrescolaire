@@ -29,3 +29,4 @@
 - Aller dans le dossier `cd /Users/Mellie/Desktop/qui-est-ce-lelivrescolaire`
 - Voir la liste des commandes avec : `ntl`
 - Selectionner `deploy`
+
