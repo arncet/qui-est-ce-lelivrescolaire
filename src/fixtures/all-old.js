@@ -34,7 +34,7 @@ const allOld = [
   { id: 33, name: 'Veronique Joly', picture: 'images/pictures/old/veronique.png' },
   { id: 34, name: 'Anaëlle Dos santos', picture: 'images/pictures/old/anaelle.jpg' },
   { id: 35, name: 'Augustin Debouy', picture: 'images/pictures/old/augustin.jpeg' },
-  { id: 36, name: 'Clementine Gauthier', picture: 'images/pictures/old/clementine.jpg' },
+  { id: 36, name: 'Clémentine Gauthier', picture: 'images/pictures/old/clementine.jpg' },
   { id: 67, name: 'Eleonore Peres', picture: 'images/pictures/old/eleonore.jpg' },
   { id: 68, name: 'Mellie Chapatte', picture: 'images/pictures/old/mellie.jpg' },
   { id: 69, name: 'David Dechaux', picture: 'images/pictures/old/David_Dechaux_old.jpeg' },
@@ -44,7 +44,8 @@ const allOld = [
   { id: 73, name: 'Guillaume Côte', picture: 'images/pictures/old/Guillaume_Cote_old.png' },
   { id: 74, name: 'Jean-Sébastien Baklouti', picture: 'images/pictures/old/JS_old.jpg' },
   { id: 75, name: 'Luc Angelini', picture: 'images/pictures/old/Luc_Angelini_old.jpg' },
-  { id: 76, name: 'Dorian Gentine', picture: 'images/pictures/old/Dorian_Gentine_old.png' }
+  { id: 76, name: 'Dorian Gentine', picture: 'images/pictures/old/Dorian_Gentine_old.png' },
+  { id: 77, name: 'Yolène Louison', picture: 'images/pictures/old/yolene.jpg' }
 ]
 
 export default allOld

@@ -5,13 +5,11 @@ const news = [
   { id: 4, name: 'Clément Teyssier', job: 'Responsable de l’édition numérique<br/>🎉 🍻 🎊 🎬', picture: 'images/pictures/new/clement-communaute.jpeg' },
   { id: 5, name: 'Elanzize Assoumani', job: 'Product Manager - SA<br/>🏀 👟 🦆', picture: 'images/pictures/new/Elanzize_Assoumani_new.png' },
   { id: 6, name: 'Emilie Blanchard', job: 'Directrice des contenus<br/>👸 ✍🏻 📚', picture: 'images/pictures/new/emilie.jpg' },
-  { id: 7, name: 'Fanny Blanchard', job: 'Directrice éditoriale de Français<br/>👾 💠 🔮', picture: 'images/pictures/new/fanny.png' },
   { id: 8, name: 'Jonathan Banon', job: 'Directeur technique<br/>🖥 🤓 🖨', picture: 'images/pictures/new/jonathan.png' },
   { id: 9, name: 'Julie Meister', job: 'Graphiste de Maths<br/>👩‍🎨 🧮 🖍', picture: 'images/pictures/new/Julie_Meister_new.JPG' },
-  { id: 10, name: 'Laura Dinin', job: 'Chef de projet web<br/>📱 💻 ⚽️', picture: 'images/pictures/new/laura-produit.jpg' },
   { id: 11, name: 'Noam Taïeb', job: 'Directeur éditorial littérature jeunesse<br/>📔 👶 🐥', picture: 'images/pictures/new/noam.png' },
   { id: 12, name: 'Raphael Taïeb', job: 'Président<br/>🤴 🚴‍ 🏆', picture: 'images/pictures/new/raph.jpg' },
-  { id: 13, name: 'Véronique Joly', job: 'Assistante de gestion<br/>🧚‍ 📆 🦹', picture: 'images/pictures/new/vero.jpg' },
+  { id: 13, name: 'Véronique Joly', job: 'Assistante de gestion<br/>🧚‍ 📆 🦹', picture: 'images/pictures/new/Vero_new.JPG' },
   { id: 14, name: 'Anne Weiss', job: 'Directrice éditoriale d’Histoire-Géographie<br/>💸 🏓 🤸‍', picture: 'images/pictures/new/anne-de-ses.jpg' },
   { id: 15, name: 'Virgile Lahu', job: 'Directeur éditorial de Maths<br/>🧮 📈 🏸', picture: 'images/pictures/new/virgile-de-mat.jpg' },
   { id: 16, name: 'Mélina Boyer', job: 'Assistante éditoriale<br/>👩‍🎓 🏃🏻‍ 📕', picture: 'images/pictures/new/melina-assistant-edito.jpeg' },
@@ -19,7 +17,6 @@ const news = [
   { id: 18, name: 'Vincent Bourgeois', job: 'Développeur web back-end<br/>💻 💪 🏋🏻‍', picture: 'images/pictures/new/vincent-dev.jpg' },
   { id: 19, name: 'Cédric Soubrié', job: 'Développeur mobile iOS<br/>📱 🎾 🤓', picture: 'images/pictures/new/cedric-dev.jpg' },
   { id: 20, name: 'Pierre-Luc Paour', job: 'Développeur mobile Android<br/>📱 🤖 💻', picture: 'images/pictures/new/pierre-luc-dev.jpg' },
-  { id: 21, name: 'Mathilde Serra', job: 'Webdesigner<br/>👩‍🎨 💻 🎨', picture: 'images/pictures/new/mathilde.jpg' },
   { id: 22, name: 'Phillippe De Sousa', job: 'Directeur d’ouvrage Mathématiques<br/>🧮 𝑓 🛶', picture: 'images/pictures/new/phillippe.png' },
   { id: 23, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' },
   { id: 24, name: 'Anaïs Payet', job: 'Développeuse mobile iOS<br/>🍍 🤷‍♀️ 🏝', picture: 'images/pictures/new/anais.jpg' },
@@ -34,7 +31,8 @@ const news = [
   { id: 34, name: 'Dorian Gentine', job: 'Développeur web front-end<br/>💻 🍙 🥊', picture: 'images/pictures/new/Dorian_Gentine_new.png' },
   { id: 35, name: 'Chloé Van santy', job: 'Infographiste<br/>👩‍🎨 👩‍🎓 🌈', picture: 'images/pictures/new/chloe-infog.jpg' },
   { id: 36, name: 'Guillaume Côte', job: 'Assistant éditorial<br/>📉 🤡 🧮', picture: 'images/pictures/new/Guillaume_Cote_new.png' },
-  { id: 37, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' }
+  { id: 37, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' },
+  { id: 38, name: 'Yolène Louison', job: 'Directrice Produit<br/>🧗‍♀️ ⛷️ 🫕', picture: 'images/pictures/new/Yolene_new.jpeg' }
 ]
 
 export default news

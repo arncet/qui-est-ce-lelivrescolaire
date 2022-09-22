@@ -31,7 +31,7 @@ const allNews = [
   { id: 30, name: 'Robin Lespagnol', job: 'Business developer<br/>🤑 💰 🇪🇸', picture: 'images/pictures/new/robin-bizdev.jpg' },
   { id: 31, name: 'Roxane Bonnardel', job: 'Assistante éditoriale Histoire-Géo<br/>👩‍🎓 🏰 🗺', picture: 'images/pictures/new/roxane-assistant-edito.jpg' },
   { id: 32, name: 'Sophie Girard', job: 'Graphiste SES<br/>👩‍🎨 🎨 💵', picture: 'images/pictures/new/sophie.png' },
-  { id: 33, name: 'Véronique Joly', job: 'Assistante de gestion<br/>🧚‍ 📆 🦹', picture: 'images/pictures/new/vero.jpg' },
+  { id: 33, name: 'Véronique Joly', job: 'Assistante de gestion<br/>🧚‍ 📆 🦹', picture: 'images/pictures/new/Vero_new.JPG' },
   { id: 34, name: 'Bérenger Ciras', job: 'Business developer<br/>🕴 💰 🚅', picture: 'images/pictures/new/berenger-bizdev.jpeg' },
   { id: 35, name: 'Anne Weiss', job: 'Directrice éditoriale Histoire-Géo<br/>💸 🏓 🤸‍', picture: 'images/pictures/new/anne-de-ses.jpg' },
   { id: 36, name: 'Virgile Lahu', job: 'Directeur éditorial Maths<br/>🧮 📈 🏸', picture: 'images/pictures/new/virgile-de-mat.jpg' },
@@ -74,9 +74,10 @@ const allNews = [
   { id: 72, name: 'Clementine Gauthier', job: 'Assistante éditoriale<br/>🍺 🏉 🍊', picture: 'images/pictures/new/clementine.jpg' },
   { id: 73, name: 'Eleonore Peres', job: 'Assistante éditoriale<br/>🌳 🐧 🔬', picture: 'images/pictures/new/eleonore.jpg' },
   { id: 74, name: 'Nicolas Perruche-Serda', job: 'Support<br/>🍻 😎 💥', picture: 'images/pictures/new/nicolas.jpg' },
-  { id: 75, name: 'Jessica Dubuisson', job: 'Directrice éditoriale Histoire<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' }
-  { id: 76, name: 'Guillaume Côte', job: 'Assistant éditorial<br/>📉 🤡 🧮', picture: 'images/pictures/new/Guillaume_Cote_new.png' }
-  { id: 77, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' }
+  { id: 75, name: 'Jessica Dubuisson', job: 'Directrice éditoriale Histoire<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' },
+  { id: 76, name: 'Guillaume Côte', job: 'Assistant éditorial<br/>📉 🤡 🧮', picture: 'images/pictures/new/Guillaume_Cote_new.png' },
+  { id: 77, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' },
+  { id: 78, name: 'Yolène Louison', job: 'Directrice Produit<br/>🧗‍♀️ ⛷️ 🫕', picture: 'images/pictures/new/Yolene_new.jpeg' }
 ]
 
 export default allNews
