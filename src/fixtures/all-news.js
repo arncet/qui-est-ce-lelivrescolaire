@@ -86,7 +86,8 @@ const allNews = [
   { id: 84, name: 'Emma Martin', job: 'Business Developer<br/>💜 🍟 📚', picture: 'images/pictures/new/Emma_Martin_new.jpg' },
   { id: 85, name: 'Pénélope de Louise', job: 'Animatrice 2D / motion design et illustratrice<br/>🎠 🍽️ 🎶', picture: 'images/pictures/new/Penelope_de_Louise_new.jpg' },
   { id: 86, name: 'Lison Cordier', job: 'Assistante éditoriale de français<br/>🌻 🍎 💫', picture: 'images/pictures/new/Lison_Cordier_new.JPG' },
-  { id: 87, name: 'Antoine Cozzucoli', job: 'Dev Fullstack Squad Communauté<br/>🍻 ☀️ 🎵', picture: 'images/pictures/new/Antoine_Cozzucoli_new.jpg' }
+  { id: 87, name: 'Antoine Cozzucoli', job: 'Dev Fullstack Squad Communauté<br/>🍻 ☀️ 🎵', picture: 'images/pictures/new/Antoine_Cozzucoli_new.jpg' },
+  { id: 88, name: 'Margaux Gély', job: 'Cheffe de projet communauté<br/>🥂 🪡 🏖️', picture: 'images/pictures/new/Margaux_Gely_new.jpg' }
 
 ]
 

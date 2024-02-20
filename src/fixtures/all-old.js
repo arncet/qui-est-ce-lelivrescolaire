@@ -55,7 +55,8 @@ const allOld = [
   { id: 84, name: 'Emma Martin', picture: 'images/pictures/old/Emma_Martin_old.jpg' },
   { id: 85, name: 'Pénélope de Louise', picture: 'images/pictures/old/Penelope_de_Louise_old.jpg' },
   { id: 86, name: 'Lison Cordier', picture: 'images/pictures/old/Lison_Cordier_old.JPG' },
-  { id: 87, name: 'Antoine Cozzucoli', picture: 'images/pictures/old/Antoine_Cozzucoli_old.jpg' }
+  { id: 87, name: 'Antoine Cozzucoli', picture: 'images/pictures/old/Antoine_Cozzucoli_old.jpg' },
+  { id: 88, name: 'Margaux Gély', picture: 'images/pictures/old/Margaux_Gely_old.jpg' }
 ]
 
 export default allOld
