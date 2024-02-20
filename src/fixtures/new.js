@@ -15,7 +15,7 @@ const news = [
   { id: 23, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' },
   { id: 25, name: 'Clémentine Gauthier', job: 'Éditrice des Classiques<br/>🧀 🏃‍♀️ 🚲', picture: 'images/pictures/new/clementine.jpg' },
   { id: 27, name: 'Jessica Dubuisson', job: 'Éditrice en Sciences Humaines<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' },
-  { id: 28, name: 'Mellie Chapatte', job: `Assistante éditoriale<br/>🌸 🍬 🍣<img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/mellie.jpg' },
+  { id: 28, name: 'Mellie Chapatte', job: `Assistante éditoriale d'anglais<br/>🌸 🍬 🍣<img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/mellie.jpg' },
   { id: 30, name: 'David Dechaux', job: 'Motion designer<br/>🍺 ☕ 🍕', picture: 'images/pictures/new/David_Dechaux_new.png' },
   { id: 31, name: 'Laura Dupra', job: 'Rédactrice / CM<br/>🤷‍♀️ 🦙 ✨', picture: 'images/pictures/new/Laura_Dupra_new.jpg' },
   { id: 32, name: 'Alexane Biot', job: 'Chef de projet marketing opérationnel<br/>🏃‍♀️ ⛰️ 🍫', picture: 'images/pictures/new/Alexane_Biot_new.jpg' },
@@ -29,7 +29,8 @@ const news = [
   { id: 40, name: 'Romain Binovsky', job: 'Ingénieur QA Junior<br/>🫡 😳 🫠', picture: 'images/pictures/new/Romain_Binovsky_new.jpg' },
   { id: 41, name: 'Jade Bordat', job: 'Assistante éditoriale des Classiques<br/>🍫 🤓 🇮🇹', picture: 'images/pictures/new/Jade_Bordat_new.jpg' },
   { id: 42, name: 'Emma Martin', job: 'Business Developer<br/>💜 🍟 📚', picture: 'images/pictures/new/Emma_Martin_new.jpg' },
-  { id: 43, name: 'Pénélope de Louise', job: 'Animatrice 2D / motion design et illustratrice<br/>🎠 🍽️ 🎶', picture: 'images/pictures/new/Penelope_de_Louise_new.jpg' }
+  { id: 43, name: 'Pénélope de Louise', job: 'Animatrice 2D / motion design et illustratrice<br/>🎠 🍽️ 🎶', picture: 'images/pictures/new/Penelope_de_Louise_new.jpg' },
+  { id: 44, name: 'Lison Cordier', job: 'Assistante éditoriale de français<br/>🌻 🍎 💫', picture: 'images/pictures/new/Lison_Cordier_new.JPG' }
 
 ]
 
