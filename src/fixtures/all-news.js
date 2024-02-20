@@ -17,7 +17,7 @@ const allNews = [
   { id: 16, name: 'Joëlle Dutreilly', job: 'Graphiste SVT<br/>👩‍🎨 🌿 🧘', picture: 'images/pictures/new/joelle-pao-svt.jpg' },
   { id: 17, name: 'Jonathan Banon', job: 'Directeur technique<br/>🖥 🤓 🖨', picture: 'images/pictures/new/jonathan.png' },
   { id: 18, name: 'Julia Poirier', job: 'Directrice éditoriale Anglais<br/>🎡 🇬🇧 🇨🇳󠁧󠁢󠁥', picture: 'images/pictures/new/julia-de-ang.jpeg' },
-  { id: 19, name: 'Julie Meister', job: 'Graphiste Maths<br/>👩‍🎨 🧮 🖍', picture: 'images/pictures/new/Julie_Meister_new.JPG' },
+  { id: 19, name: 'Julie Meister', job: 'Graphiste Maths<br/>👩‍🎨 🧮 🖍', picture: 'images/pictures/new/Julie_Meister_new.jpeg' },
   { id: 20, name: 'Julie Sardin', job: `Directrice éditoriale Histoire<br/>🏰 🗽<img src="${process.env.PUBLIC_URL}/images/sardin.png" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/julie-s-de-his.jpg' },
   { id: 21, name: 'Laura Dinin', job: 'Chef de projet web<br/>📱 💻 ⚽️', picture: 'images/pictures/new/laura-produit.jpg' },
   { id: 22, name: 'Lionel Douthe', job: "Directeur d'ouvrage Physique-Chimie<br/>👨🏻‍🔬 🔭 👓", picture: 'images/pictures/new/lionel.png' },

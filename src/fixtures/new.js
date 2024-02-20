@@ -4,7 +4,7 @@ const news = [
   { id: 4, name: 'Clément Teyssier', job: 'Responsable de l’édition numérique<br/>🎉 🍻 🎊 🎬', picture: 'images/pictures/new/clement-communaute.jpeg' },
   { id: 5, name: 'Elanzize Assoumani', job: 'Product Manager - SA<br/>🏀 👟 🦆', picture: 'images/pictures/new/Elanzize_Assoumani_new.png' },
   { id: 6, name: 'Emilie Blanchard', job: 'Directrice des contenus<br/>👸 ✍🏻 📚', picture: 'images/pictures/new/emilie.jpg' },
-  { id: 9, name: 'Julie Meister', job: 'Directrice artistique sciences<br/>👩‍🎨 🧮 🖍', picture: 'images/pictures/new/Julie_Meister_new.JPG' },
+  { id: 9, name: 'Julie Meister', job: 'Directrice artistique sciences<br/>👩‍🎨 🧮 🖍', picture: 'images/pictures/new/Julie_Meister_new.jpeg' },
   { id: 11, name: 'Noam Taïeb', job: 'Directeur éditorial littérature jeunesse<br/>📔 👶 🐥', picture: 'images/pictures/new/noam.png' },
   { id: 12, name: 'Raphael Taïeb', job: 'Président<br/>🤴 🚴‍ 🏆', picture: 'images/pictures/new/raph.jpg' },
   { id: 13, name: 'Véronique Joly', job: 'Assistante de gestion<br/>🧚‍ 📆 🦹', picture: 'images/pictures/new/Vero_new.JPG' },
