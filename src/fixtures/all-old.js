@@ -46,7 +46,7 @@ const allOld = [
   { id: 75, name: 'Luc Angelini', picture: 'images/pictures/old/Luc_Angelini_old.jpg' },
   { id: 76, name: 'Dorian Gentine', picture: 'images/pictures/old/Dorian_Gentine_old.png' },
   { id: 77, name: 'Yolène Louison', picture: 'images/pictures/old/yolene.jpg' },
-  { id: 78, name: 'Vincent Bourgeois', picture: 'images/pictures/old/vincent.jpg' },
+  { id: 78, name: 'Vincent Bourgeois', picture: 'images/pictures/old/vincent.jpg' }
 ]
 
 export default allOld
