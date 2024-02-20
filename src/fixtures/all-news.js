@@ -78,7 +78,8 @@ const allNews = [
   { id: 76, name: 'Guillaume Côte', job: 'Assistant éditorial<br/>📉 🤡 🧮', picture: 'images/pictures/new/Guillaume_Cote_new.png' },
   { id: 77, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' },
   { id: 78, name: 'Yolène Louison', job: 'Directrice Produit<br/>🧗‍♀️ ⛷️ 🫕', picture: 'images/pictures/new/Yolene_new.jpeg' }, 
-  { id: 79, name: 'Anaïs Payet', job: 'Développeuse mobile iOS<br/>🍍 🤷‍♀️ 🏝', picture: 'images/pictures/new/anais.jpg' }
+  { id: 79, name: 'Anaïs Payet', job: 'Développeuse mobile iOS<br/>🍍 🤷‍♀️ 🏝', picture: 'images/pictures/new/anais.jpg' }, 
+  { id: 80, name: 'Camille Lacour', job: 'Assistante éditoriale scientifique<br/>🌻📖🌊', picture: 'images/pictures/new/Camille_Lacour_new.jpg' }
 ]
 
 export default allNews

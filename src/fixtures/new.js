@@ -15,7 +15,7 @@ const news = [
   { id: 23, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' },
   { id: 25, name: 'Clémentine Gauthier', job: 'Assistante éditoriale<br/>🍺 🏉 🍊', picture: 'images/pictures/new/clementine.jpg' },
   { id: 27, name: 'Jessica Dubuisson', job: 'Éditrice en Sciences Humaines<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' },
-  { id: 28, name: 'Mellie Chapatte', job: `Lead de l’édition numérique<br/>🌸 🍬 <img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/mellie.jpg' },
+  { id: 28, name: 'Mellie Chapatte', job: `Assistante éditoriale<br/>🌸 🍬 <img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/mellie.jpg' },
   { id: 30, name: 'David Dechaux', job: 'Motion designer<br/>🍺 ☕ 🍕', picture: 'images/pictures/new/David_Dechaux_new.png' },
   { id: 31, name: 'Laura Dupra', job: 'Rédactrice / CM<br/>🤷‍♀️ 🦙 ✨', picture: 'images/pictures/new/Laura_Dupra_new.jpg' },
   { id: 32, name: 'Alexane Biot', job: 'Chef de projet marketing opérationnel<br/>🏃‍♀️ ⛰️ 🍫', picture: 'images/pictures/new/Alexane_Biot_new.jpg' },
@@ -23,7 +23,8 @@ const news = [
   { id: 34, name: 'Dorian Gentine', job: 'Développeur web et CHO<br/>💻 🍙 🥊', picture: 'images/pictures/new/Dorian_Gentine_new.png' },
   { id: 35, name: 'Chloé Van santy', job: 'Infographiste<br/>👩‍🎨 👩‍🎓 🌈', picture: 'images/pictures/new/chloe-infog.jpg' },
   { id: 36, name: 'Guillaume Côte', job: 'Assistant éditorial<br/>📉 🤡 🧮', picture: 'images/pictures/new/Guillaume_Cote_new.png' },
-  { id: 37, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' }
+  { id: 37, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' },
+  { id: 38, name: 'Camille Lacour', job: 'Assistante éditoriale scientifique<br/>🌻📖🌊', picture: 'images/pictures/new/Camille_Lacour_new.jpg' }
 ]
 
 export default news

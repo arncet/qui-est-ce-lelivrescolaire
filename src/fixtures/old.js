@@ -17,7 +17,8 @@ const old = [
   { id: 19, name: 'Dylan Pissard', picture: 'images/pictures/old/Dylan_Pissard_old.png' },
   { id: 20, name: 'Guillaume Côte', picture: 'images/pictures/old/Guillaume_Cote_old.png' },
   { id: 21, name: 'Jean-Sébastien Baklouti', picture: 'images/pictures/old/JS_old.jpg' },
-  { id: 22, name: 'Dorian Gentine', picture: 'images/pictures/old/Dorian_Gentine_old.png' }
+  { id: 22, name: 'Dorian Gentine', picture: 'images/pictures/old/Dorian_Gentine_old.png' },
+  { id: 23, name: 'Camille Lacour', picture: 'images/pictures/old/Camille_Lacour_old.jpg' }
 ]
 
 export default old
