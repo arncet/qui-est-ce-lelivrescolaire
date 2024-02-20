@@ -10,7 +10,6 @@ const news = [
   { id: 11, name: 'Noam Taïeb', job: 'Directeur éditorial littérature jeunesse<br/>📔 👶 🐥', picture: 'images/pictures/new/noam.png' },
   { id: 12, name: 'Raphael Taïeb', job: 'Président<br/>🤴 🚴‍ 🏆', picture: 'images/pictures/new/raph.jpg' },
   { id: 13, name: 'Véronique Joly', job: 'Assistante de gestion<br/>🧚‍ 📆 🦹', picture: 'images/pictures/new/Vero_new.JPG' },
-  { id: 14, name: 'Anne Weiss', job: 'Directrice éditoriale d’Histoire-Géographie<br/>💸 🏓 🤸‍', picture: 'images/pictures/new/anne-de-ses.jpg' },
   { id: 15, name: 'Virgile Lahu', job: 'Directeur éditorial de Maths<br/>🧮 📈 🏸', picture: 'images/pictures/new/virgile-de-mat.jpg' },
   { id: 16, name: 'Mélina Boyer', job: 'Assistante éditoriale<br/>👩‍🎓 🏃🏻‍ 📕', picture: 'images/pictures/new/melina-assistant-edito.jpeg' },
   { id: 17, name: 'Maximilien Derrier', job: 'DevOps<br/>🧙 🧝 🧔 💻 🦸‍ 🤓 🖨 👨‍🚒 🧞‍ 👹 👨‍🚀 🛰 🚀 📡', picture: 'images/pictures/new/max-dev.jpeg' },
