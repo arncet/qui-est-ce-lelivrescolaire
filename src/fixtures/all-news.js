@@ -83,7 +83,8 @@ const allNews = [
   { id: 81, name: 'Marya Colas', job: 'Graphiste<br/>👩‍🦰 🌏 😬', picture: 'images/pictures/new/Marya_Colas_new.jpg' },
   { id: 82, name: 'Romain Binovsky', job: 'Ingénieur QA Junior<br/>🫡 😳 🫠', picture: 'images/pictures/new/Romain_Binovsky_new.jpg' },
   { id: 83, name: 'Jade Bordat', job: 'Assistante éditoriale des Classiques<br/>🍫 🤓 🇮🇹', picture: 'images/pictures/new/Jade_Bordat_new.jpg' },
-  { id: 84, name: 'Emma Martin', job: 'Business Developer<br/>💜 🍟 📚', picture: 'images/pictures/new/Emma_Martin_new.jpg' }
+  { id: 84, name: 'Emma Martin', job: 'Business Developer<br/>💜 🍟 📚', picture: 'images/pictures/new/Emma_Martin_new.jpg' },
+  { id: 85, name: 'Pénélope de Louise', job: 'Animatrice 2D / motion design et illustratrice<br/>🎠 🍽️ 🎶', picture: 'images/pictures/new/Penelope_de_Louise_new.jpg' }
 ]
 
 export default allNews
