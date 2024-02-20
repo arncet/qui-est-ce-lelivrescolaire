@@ -30,7 +30,8 @@ const news = [
   { id: 41, name: 'Jade Bordat', job: 'Assistante éditoriale des Classiques<br/>🍫 🤓 🇮🇹', picture: 'images/pictures/new/Jade_Bordat_new.jpg' },
   { id: 42, name: 'Emma Martin', job: 'Business Developer<br/>💜 🍟 📚', picture: 'images/pictures/new/Emma_Martin_new.jpg' },
   { id: 43, name: 'Pénélope de Louise', job: 'Animatrice 2D / motion design et illustratrice<br/>🎠 🍽️ 🎶', picture: 'images/pictures/new/Penelope_de_Louise_new.jpg' },
-  { id: 44, name: 'Lison Cordier', job: 'Assistante éditoriale de français<br/>🌻 🍎 💫', picture: 'images/pictures/new/Lison_Cordier_new.JPG' }
+  { id: 44, name: 'Lison Cordier', job: 'Assistante éditoriale de français<br/>🌻 🍎 💫', picture: 'images/pictures/new/Lison_Cordier_new.JPG' },
+  { id: 45, name: 'Antoine Cozzucoli', job: 'Dev Fullstack Squad Communauté<br/>🍻 ☀️ 🎵', picture: 'images/pictures/new/Antoine_Cozzucoli_new.jpg' }
 
 ]
 
