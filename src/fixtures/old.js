@@ -27,7 +27,8 @@ const old = [
   { id: 29, name: 'Pénélope de Louise', picture: 'images/pictures/old/Penelope_de_Louise_old.jpg' },
   { id: 30, name: 'Lison Cordier', picture: 'images/pictures/old/Lison_Cordier_old.JPG' },
   { id: 31, name: 'Antoine Cozzucoli', picture: 'images/pictures/old/Antoine_Cozzucoli_old.jpg' },
-  { id: 32, name: 'Margaux Gély', picture: 'images/pictures/old/Margaux_Gely_old.jpg' }
+  { id: 32, name: 'Margaux Gély', picture: 'images/pictures/old/Margaux_Gely_old.jpg' },
+  { id: 33, name: 'Lisa Poncept', picture: 'images/pictures/old/Lisa_Poncept_old.jpeg' }
 ]
 
 export default old
