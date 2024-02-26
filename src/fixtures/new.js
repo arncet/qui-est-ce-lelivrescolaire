@@ -15,7 +15,7 @@ const news = [
   { id: 23, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage de Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' },
   { id: 25, name: 'Clémentine Gauthier', job: 'Éditrice des Classiques<br/>🧀 🏃‍♀️ 🚲', picture: 'images/pictures/new/clementine.jpg' },
   { id: 27, name: 'Jessica Dubuisson', job: 'Éditrice en Sciences Humaines<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' },
-  { id: 28, name: 'Mellie Chapatte', job: `Assistante éditoriale d'anglais<br/>🌸 🍬 🍣 <img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/mellie.jpg' },
+  { id: 28, name: 'Mellie Chapatte', job: `Assistante éditoriale d'anglais<br/>🌸 🍬 🍣 <img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/Mellie_Chapatte_new.jpg' },
   { id: 30, name: 'David Dechaux', job: 'Motion designer<br/>🍺 ☕ 🍕', picture: 'images/pictures/new/David_Dechaux_new.png' },
   { id: 31, name: 'Laura Dupra', job: 'Rédactrice / CM<br/>🤷‍♀️ 🦙 ✨', picture: 'images/pictures/new/Laura_Dupra_new.jpg' },
   { id: 32, name: 'Alexane Biot', job: 'Chef de projet marketing opérationnel<br/>🏃‍♀️ ⛰️ 🍫', picture: 'images/pictures/new/Alexane_Biot_new.jpg' },
@@ -36,7 +36,7 @@ const news = [
   { id: 47, name: 'Lisa Poncept', job: 'Éditrice en Français<br/>🫖 ✨ 🍫', picture: 'images/pictures/new/Lisa_Poncept_new.jpg' },
   { id: 48, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' },
   { id: 49, name: 'Sandrine Lassere', job: 'Directrice éditoriale de Sciences Humaines<br/>✍️ 🍮 🐱', picture: 'images/pictures/new/Sandrine_Lassere_new.jpg' },
-  { id: 50, name: 'Caroline Blanc Feracci', job: `Assistante éditoriale d'histoire géographie<br/>`, picture: 'images/pictures/new/Caroline_Blanc_Feracci_new.PNG' }
+  { id: 50, name: 'Caroline Blanc Feracci', job: `Assistante éditoriale d'histoire géographie<br/>🌅 🐶 ⚽`, picture: 'images/pictures/new/Caroline_Blanc_Feracci_new.PNG' }
 
 ]
 
