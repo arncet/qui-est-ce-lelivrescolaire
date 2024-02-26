@@ -35,7 +35,8 @@ const news = [
   { id: 46, name: 'Margaux Gély', job: 'Cheffe de projet communauté<br/>🥂 🪡 🏖️', picture: 'images/pictures/new/Margaux_Gely_new.jpg' },
   { id: 47, name: 'Lisa Poncept', job: 'Éditrice en Français<br/>🫖 ✨ 🍫', picture: 'images/pictures/new/Lisa_Poncept_new.jpg' },
   { id: 48, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' },
-  { id: 49, name: 'Sandrine Lassere', job: 'Directrice éditorial de Sciences Humaines<br/>✍️ 🍮 🐱', picture: 'images/pictures/new/Sandrine_Lassere_new.jpg' }
+  { id: 49, name: 'Sandrine Lassere', job: 'Directrice éditoriale de Sciences Humaines<br/>✍️ 🍮 🐱', picture: 'images/pictures/new/Sandrine_Lassere_new.jpg' },
+  { id: 50, name: 'Caroline Blanc Feracci', job: `Assistante éditoriale d'histoire géographie<br/>`, picture: 'images/pictures/new/Caroline_Blanc_Feracci_new.PNG' }
 
 ]
 
