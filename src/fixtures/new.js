@@ -8,7 +8,7 @@ const news = [
   { id: 11, name: 'Noam Taïeb', job: 'Directeur éditorial littérature jeunesse<br/>📔 👶 🐥', picture: 'images/pictures/new/noam.png' },
   { id: 12, name: 'Raphael Taïeb', job: 'Président<br/>🤴 🚴‍ 🏆', picture: 'images/pictures/new/raph.jpg' },
   { id: 13, name: 'Véronique Joly', job: 'Responsable administratif et gestion<br/>🧚‍ 📆 🦹', picture: 'images/pictures/new/Vero_new.JPG' },
-  { id: 15, name: 'Virgile Lahu', job: 'Directeur éditorial de Maths<br/>🧮 📈 🏸', picture: 'images/pictures/new/virgile-de-mat.jpg' },
+  { id: 15, name: 'Virgile Lahu', job: 'Directeur éditorial de Sciences<br/>🧮 📈 🏸', picture: 'images/pictures/new/virgile-de-mat.jpg' },
   { id: 17, name: 'Maximilien Derrier', job: 'DevOps<br/>🧙 🧝 🧔 💻 🦸‍ 🤓 🖨 👨‍🚒 🧞‍ 👹 👨‍🚀 🛰 🚀 📡', picture: 'images/pictures/new/max-dev.jpeg' },
   { id: 20, name: 'Pierre-Luc Paour', job: 'Développeur mobile Android<br/>📱 🤖 💻', picture: 'images/pictures/new/pierre-luc-dev.jpg' },
   { id: 22, name: 'Phillippe De Sousa', job: 'Directeur d’ouvrage Mathématiques<br/>🧮 𝑓 🛶', picture: 'images/pictures/new/phillippe.png' },
@@ -34,7 +34,8 @@ const news = [
   { id: 45, name: 'Antoine Cozzucoli', job: 'Dev Fullstack Squad Communauté<br/>🍻 ☀️ 🎵', picture: 'images/pictures/new/Antoine_Cozzucoli_new.jpg' },
   { id: 46, name: 'Margaux Gély', job: 'Cheffe de projet communauté<br/>🥂 🪡 🏖️', picture: 'images/pictures/new/Margaux_Gely_new.jpg' },
   { id: 47, name: 'Lisa Poncept', job: 'Éditrice en Français<br/>🫖 ✨ 🍫', picture: 'images/pictures/new/Lisa_Poncept_new.jpg' },
-  { id: 48, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' }
+  { id: 48, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' },
+  { id: 49, name: 'Sandrine Lassere', job: 'Directrice éditorial de Sciences Humaines<br/>✍️ 🍮 🐱', picture: 'images/pictures/new/Sandrine_Lassere_new.jpg' }
 
 ]
 

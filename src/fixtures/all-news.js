@@ -89,7 +89,8 @@ const allNews = [
   { id: 87, name: 'Antoine Cozzucoli', job: 'Dev Fullstack Squad Communauté<br/>🍻 ☀️ 🎵', picture: 'images/pictures/new/Antoine_Cozzucoli_new.jpg' },
   { id: 88, name: 'Margaux Gély', job: 'Cheffe de projet communauté<br/>🥂 🪡 🏖️', picture: 'images/pictures/new/Margaux_Gely_new.jpg' },
   { id: 89, name: 'Lisa Poncept', job: 'Éditrice en Français<br/>🫖 ✨ 🍫', picture: 'images/pictures/new/Lisa_Poncept_new.jpg' },
-  { id: 90, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' }
+  { id: 90, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' },
+  { id: 91, name: 'Sandrine Lassere', job: 'Directrice éditorial de Sciences Humaines<br/>✍️ 🍮 🐱', picture: 'images/pictures/new/Sandrine_Lassere_new.jpg' }
 
 ]
 
