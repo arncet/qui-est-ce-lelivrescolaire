@@ -31,7 +31,8 @@ const old = [
   { id: 33, name: 'Lisa Poncept', picture: 'images/pictures/old/Lisa_Poncept_old.jpeg' },
   { id: 34, name: 'Mathilde Laporte', picture: 'images/pictures/old/Mathilde_Laporte_old1.JPG' },
   { id: 35, name: 'Sandrine Lassere', picture: 'images/pictures/old/Sandrine_Lassere_old.JPG' },
-  { id: 36, name: 'Caroline Blanc Feracci', picture: 'images/pictures/old/Caroline_Blanc_Feracci_old.jpg' }
+  { id: 36, name: 'Caroline Blanc Feracci', picture: 'images/pictures/old/Caroline_Blanc_Feracci_old.jpg' },
+  { id: 37, name: 'Alexia Vicente', picture: 'images/pictures/old/Alexia_Vicente_old.jpg' }
 ]
 
 export default old
