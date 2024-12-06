@@ -14,10 +14,9 @@ const news = [
   { id: 22, name: 'Phillippe De Sousa', job: 'Directeur d’ouvrage Mathématiques<br/>🧮 𝑓 🛶', picture: 'images/pictures/new/phillippe.png' },
   { id: 23, name: 'Pierre-Michel Sailhan', job: 'Directeur d’ouvrage de Français<br/>📚 📕 🧔', picture: 'images/pictures/new/pm.jpg' },
   { id: 25, name: 'Clémentine Gauthier', job: 'Éditrice des Classiques<br/>🧀 🏃‍♀️ 🚲', picture: 'images/pictures/new/clementine.jpg' },
-  { id: 27, name: 'Jessica Dubuisson', job: 'Éditrice en Sciences Humaines<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' },
+  { id: 27, name: 'Jessica Dubuisson', job: 'Directrice éditoriale des Langues vivantes<br/>🍻 😎 💥', picture: 'images/pictures/new/jessica.jpg' },
   { id: 28, name: 'Mellie Chapatte', job: `Assistante éditoriale d'anglais<br/>🌸 🍬 🍣 <img src="${process.env.PUBLIC_URL}/images/ahhhhhhhh.gif" style="width:26px; vertical-align: middle" />`, picture: 'images/pictures/new/Mellie_Chapatte_new.jpg' },
   { id: 30, name: 'David Dechaux', job: 'Motion designer<br/>🍺 ☕ 🍕', picture: 'images/pictures/new/David_Dechaux_new.png' },
-  { id: 31, name: 'Laura Dupra', job: 'Rédactrice / CM<br/>🤷‍♀️ 🦙 ✨', picture: 'images/pictures/new/Laura_Dupra_new.jpg' },
   { id: 32, name: 'Alexane Biot', job: 'Chef de projet marketing opérationnel<br/>🏃‍♀️ ⛰️ 🍫', picture: 'images/pictures/new/Alexane_Biot_new.jpg' },
   { id: 33, name: 'Dylan Pissard', job: 'Responsable de la Brigade d’Accompagnement des Profs (BAP)<br/>⛷️ 🎢 🐶 🍆', picture: 'images/pictures/new/Dylan_Pissard_new.png' },
   { id: 34, name: 'Dorian Gentine', job: 'Développeur web et CHO<br/>💻 🍙 🥊', picture: 'images/pictures/new/Dorian_Gentine_new.png' },
@@ -29,15 +28,18 @@ const news = [
   { id: 40, name: 'Romain Binovsky', job: 'Ingénieur QA Junior<br/>🫡 😳 🫠', picture: 'images/pictures/new/Romain_Binovsky_new.jpg' },
   { id: 41, name: 'Jade Bordat', job: 'Assistante éditoriale des Classiques<br/>🍫 🤓 🇮🇹', picture: 'images/pictures/new/Jade_Bordat_new.jpg' },
   { id: 42, name: 'Emma Martin', job: 'Business Developer<br/>💜 🍟 📚', picture: 'images/pictures/new/Emma_Martin_new.jpg' },
-  { id: 43, name: 'Pénélope de Louise', job: 'Animatrice 2D / motion design et illustratrice<br/>🎠 🍽️ 🎶', picture: 'images/pictures/new/Penelope_de_Louise_new.jpg' },
   { id: 44, name: 'Lison Cordier', job: 'Assistante éditoriale de français<br/>🌻 🍎 💫', picture: 'images/pictures/new/Lison_Cordier_new.JPG' },
   { id: 45, name: 'Antoine Cozzucoli', job: 'Dev Fullstack Squad Communauté<br/>🍻 ☀️ 🎵', picture: 'images/pictures/new/Antoine_Cozzucoli_new.jpg' },
   { id: 46, name: 'Margaux Gély', job: 'Cheffe de projet communauté<br/>🥂 🪡 🏖️', picture: 'images/pictures/new/Margaux_Gely_new.jpg' },
   { id: 47, name: 'Lisa Poncept', job: 'Éditrice en Français<br/>🫖 ✨ 🍫', picture: 'images/pictures/new/Lisa_Poncept_new.jpg' },
   { id: 48, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' },
   { id: 49, name: 'Sandrine Lassere', job: 'Directrice éditoriale de Sciences Humaines<br/>✍️ 🍮 🐱', picture: 'images/pictures/new/Sandrine_Lassere_new.jpg' },
-  { id: 50, name: 'Caroline Blanc Feracci', job: `Assistante éditoriale d'histoire géographie<br/>🌅 🐶 ⚽`, picture: 'images/pictures/new/Caroline_Blanc_Feracci_new.PNG' },
-  { id: 51, name: 'Alexia Vicente', job: `Graphiste & édito numérique<br/>✨ 🤸‍♀️ 🎨 🐱`, picture: 'images/pictures/new/Alexia_Vicente_new.jpg' }
+  { id: 50, name: 'Caroline Blanc Feracci', job: `Assistante éditoriale d'anglais<br/>🌅 🐶 ⚽`, picture: 'images/pictures/new/Caroline_Blanc_Feracci_new.PNG' },
+  { id: 51, name: 'Alexia Vicente', job: `Graphiste & édito numérique<br/>✨ 🤸‍♀️ 🎨 🐱`, picture: 'images/pictures/new/Alexia_Vicente_new.jpg' },
+  { id: 52, name: 'Célia Jésupret', job: `Éditrice d'espagnol<br/>🧉 🌻 🧡`, picture: 'images/pictures/new/Celia_Jesupret_new.jpeg' },
+  { id: 31, name: 'Pauline Perrenoud', job: `Motion designer<br/>🌈 🍣 💄`, picture: 'images/pictures/new/Pauline_Perrenoud_new.jpeg' },
+  { id: 1, name: 'Thomas Pottier', job: `Product Manager - SD<br/>🦖 💭 🍻`, picture: 'images/pictures/new/Thomas.Pottier_new.png' },
+  { id: 7, name: 'Yohann Rabatel', job: `Motion designer<br/>🎥 🍻 📚`, picture: 'images/pictures/new/Yohann_Rabatel_new.jpg' }
 
 ]
 

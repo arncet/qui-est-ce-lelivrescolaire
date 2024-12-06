@@ -61,7 +61,13 @@ const allOld = [
   { id: 90, name: 'Mathilde Laporte', picture: 'images/pictures/old/Mathilde_Laporte_old1.JPG' },
   { id: 91, name: 'Sandrine Lassere', picture: 'images/pictures/old/Sandrine_Lassere_old.JPG' },
   { id: 92, name: 'Caroline Blanc Feracci', picture: 'images/pictures/old/Caroline_Blanc_Feracci_old.jpg' }, 
-  { id: 93, name: 'Alexia Vicente', picture: 'images/pictures/old/Alexia_Vicente_old.jpg' }
+  { id: 93, name: 'Alexia Vicente', picture: 'images/pictures/old/Alexia_Vicente_old.jpg' },
+  { id: 94, name: 'Pauline Perrenoud', picture: 'images/pictures/old/Pauline_Perrenoud_old1.JPG' },
+  { id: 95, name: 'Célia Jésupret', picture: 'images/pictures/old/Celia_Jesupret_old.jpg' },
+  { id: 96, name: 'Tamara Raidt', picture: 'images/pictures/old/Tamara_Raidt_old.png' },
+  { id: 97, name: 'Thomas Pottier', picture: 'images/pictures/old/Thomas.Pottier_old.png' },
+  { id: 98, name: 'Yohann Rabatel', picture: 'images/pictures/old/Yohann_Rabatel_old.jpeg' }
+
 ]
 
 export default allOld

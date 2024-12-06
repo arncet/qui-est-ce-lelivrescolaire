@@ -7,12 +7,11 @@ const old = [
   { id: 8, name: 'Julie Meister', picture: 'images/pictures/old/Julie_Meister_old.jpg' },
   { id: 9, name: 'Noam Taieb', picture: 'images/pictures/old/noam.png' },
   { id: 10, name: 'Raphael Taieb', picture: 'images/pictures/old/raphael.png' },
-  { id: 11, name: 'Veronique Joly', picture: 'images/pictures/old/veronique.png' },
+  { id: 11, name: 'Véronique Joly', picture: 'images/pictures/old/veronique.png' },
   { id: 12, name: 'Clémentine Gauthier', picture: 'images/pictures/old/clementine.jpg' },
   { id: 14, name: 'Jessica Dubuisson', picture: 'images/pictures/old/jessica.jpg' },
   { id: 15, name: 'Mellie Chapatte', picture: 'images/pictures/old/mellie.jpg' },
   { id: 16, name: 'David Dechaux', picture: 'images/pictures/old/David_Dechaux_old.jpeg' },
-  { id: 17, name: 'Laura Dupra', picture: 'images/pictures/old/Laura_Dupra_old.jpg' },
   { id: 18, name: 'Alexane Biot', picture: 'images/pictures/old/Alexane_Biot_old.jpeg' },
   { id: 19, name: 'Dylan Pissard', picture: 'images/pictures/old/Dylan_Pissard_old.png' },
   { id: 20, name: 'Guillaume Côte', picture: 'images/pictures/old/Guillaume_Cote_old.png' },
@@ -24,7 +23,6 @@ const old = [
   { id: 26, name: 'Chloé Van Santy', picture: 'images/pictures/old/Chloe_VanSanty_old.JPEG' },
   { id: 27, name: 'Jade Bordat', picture: 'images/pictures/old/Jade_Bordat_old.JPG' },
   { id: 28, name: 'Emma Martin', picture: 'images/pictures/old/Emma_Martin_old.jpg' },
-  { id: 29, name: 'Pénélope de Louise', picture: 'images/pictures/old/Penelope_de_Louise_old.jpg' },
   { id: 30, name: 'Lison Cordier', picture: 'images/pictures/old/Lison_Cordier_old.JPG' },
   { id: 31, name: 'Antoine Cozzucoli', picture: 'images/pictures/old/Antoine_Cozzucoli_old.jpg' },
   { id: 32, name: 'Margaux Gély', picture: 'images/pictures/old/Margaux_Gely_old.jpg' },
@@ -32,7 +30,12 @@ const old = [
   { id: 34, name: 'Mathilde Laporte', picture: 'images/pictures/old/Mathilde_Laporte_old1.JPG' },
   { id: 35, name: 'Sandrine Lassere', picture: 'images/pictures/old/Sandrine_Lassere_old.JPG' },
   { id: 36, name: 'Caroline Blanc Feracci', picture: 'images/pictures/old/Caroline_Blanc_Feracci_old.jpg' },
-  { id: 37, name: 'Alexia Vicente', picture: 'images/pictures/old/Alexia_Vicente_old.jpg' }
+  { id: 37, name: 'Tamara Raidt', picture: 'images/pictures/old/Tamara_Raidt_old.png' },
+  { id: 38, name: 'Alexia Vicente', picture: 'images/pictures/old/Alexia_Vicente_old.jpg' },
+  { id: 39, name: 'Pauline Perrenoud', picture: 'images/pictures/old/Pauline_Perrenoud_old1.JPG' },
+  { id: 40, name: 'Célia Jésupret', picture: 'images/pictures/old/Celia_Jesupret_old.jpg' },
+  { id: 41, name: 'Thomas Pottier', picture: 'images/pictures/old/Thomas.Pottier_old.png' },
+  { id: 42, name: 'Yohann Rabatel', picture: 'images/pictures/old/Yohann_Rabatel_old.jpeg' }
 ]
 
 export default old

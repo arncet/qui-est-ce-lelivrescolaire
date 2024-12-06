@@ -92,7 +92,11 @@ const allNews = [
   { id: 90, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' },
   { id: 91, name: 'Sandrine Lassere', job: 'Directrice éditorial de Sciences Humaines<br/>✍️ 🍮 🐱', picture: 'images/pictures/new/Sandrine_Lassere_new.jpg' },
   { id: 92, name: 'Caroline Blanc Feracci', job: `Assistante éditoriale d'histoire géographie<br/>🌅 🐶 ⚽`, picture: 'images/pictures/new/Caroline_Blanc_Feracci_new.PNG' },
-  { id: 93, name: 'Alexia Vicente', job: `Graphiste & édito numérique<br/>✨ 🤸‍♀️ 🎨 🐱`, picture: 'images/pictures/new/Alexia_Vicente_new.jpg' }
+  { id: 93, name: 'Alexia Vicente', job: `Graphiste & édito numérique<br/>✨ 🤸‍♀️ 🎨 🐱`, picture: 'images/pictures/new/Alexia_Vicente_new.jpg' },
+  { id: 94, name: 'Célia Jésupret', job: `Éditrice d'espagnol<br/>🧉 🌻 🧡`, picture: 'images/pictures/new/Celia_Jesupret_new.jpeg' },
+  { id: 95, name: 'Pauline Perrenoud', job: `Motion designer<br/>🌈 🍣 💄`, picture: 'images/pictures/new/Pauline_Perrenoud_new.jpeg' },
+  { id: 96, name: 'Thomas Pottier', job: `Product Manager - SD<br/>🦖 💭 🍻`, picture: 'images/pictures/new/Thomas.Pottier_new.png' },
+  { id: 97, name: 'Yohann Rabatel', job: `Motion designer<br/>🎥 🍻 📚`, picture: 'images/pictures/new/Yohann_Rabatel_new.jpg' }
 
 ]
 
