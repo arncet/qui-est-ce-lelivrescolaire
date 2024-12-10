@@ -67,7 +67,7 @@ const allOld = [
   { id: 96, name: 'Tamara Raidt', picture: 'images/pictures/old/Tamara_Raidt_old.png' },
   { id: 97, name: 'Thomas Pottier', picture: 'images/pictures/old/Thomas.Pottier_old.png' },
   { id: 98, name: 'Yohann Rabatel', picture: 'images/pictures/old/Yohann_Rabatel_old.jpeg' },
-  { id: 99, name: 'Eléna Sonntag', picture: 'images/pictures/old/Eléna_ Sonntag_old.jpg' }
+  { id: 99, name: 'Eléna Sonntag', picture: 'images/pictures/old/Elena_Sonntag_old.jpg' }
 
 ]
 
