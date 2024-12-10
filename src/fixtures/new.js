@@ -22,14 +22,14 @@ const news = [
   { id: 34, name: 'Dorian Gentine', job: 'Développeur web et CHO<br/>💻 🍙 🥊', picture: 'images/pictures/new/Dorian_Gentine_new.png' },
   { id: 35, name: 'Chloé Van Santy', job: 'Directrice artistique sciences humaines<br/>🦄 ⛰️ 🧀', picture: 'images/pictures/new/chloe-infog.jpg' },
   { id: 36, name: 'Guillaume Côte', job: 'Éditeur numérique sciences<br/>📉 🤡 🧮', picture: 'images/pictures/new/Guillaume_Cote_new.png' },
-  { id: 37, name: 'Jean-Sébastien Baklouti', job: 'Développeur<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' },
+  { id: 37, name: 'Jean-Sébastien Baklouti', job: 'Lead Développeur Squad Accompagnement<br/>💻 🍻 🎭', picture: 'images/pictures/new/JS_new.jpg' },
   { id: 38, name: 'Camille Lacour', job: 'Assistante éditoriale scientifique<br/>🌻 📖 🌊', picture: 'images/pictures/new/Camille_Lacour_new.jpg' },
   { id: 39, name: 'Marya Colas', job: 'Graphiste<br/>👩‍🦰 🌏 😬', picture: 'images/pictures/new/Marya_Colas_new.jpg' },
   { id: 40, name: 'Romain Binovsky', job: 'Ingénieur QA Junior<br/>🫡 😳 🫠', picture: 'images/pictures/new/Romain_Binovsky_new.jpg' },
   { id: 41, name: 'Jade Bordat', job: 'Assistante éditoriale des Classiques<br/>🍫 🤓 🇮🇹', picture: 'images/pictures/new/Jade_Bordat_new.jpg' },
   { id: 42, name: 'Emma Martin', job: 'Business Developer<br/>💜 🍟 📚', picture: 'images/pictures/new/Emma_Martin_new.jpg' },
   { id: 44, name: 'Lison Cordier', job: 'Assistante éditoriale de français<br/>🌻 🍎 💫', picture: 'images/pictures/new/Lison_Cordier_new.JPG' },
-  { id: 45, name: 'Antoine Cozzucoli', job: 'Dev Fullstack Squad Communauté<br/>🍻 ☀️ 🎵', picture: 'images/pictures/new/Antoine_Cozzucoli_new.jpg' },
+  { id: 45, name: 'Antoine Cozzucoli', job: 'Lead Dev Fullstack Squad Communauté<br/>🍻 ☀️ 🎵', picture: 'images/pictures/new/Antoine_Cozzucoli_new.jpg' },
   { id: 46, name: 'Margaux Gély', job: 'Cheffe de projet communauté<br/>🥂 🪡 🏖️', picture: 'images/pictures/new/Margaux_Gely_new.jpg' },
   { id: 47, name: 'Lisa Poncept', job: 'Éditrice en Français<br/>🫖 ✨ 🍫', picture: 'images/pictures/new/Lisa_Poncept_new.jpg' },
   { id: 48, name: 'Mathilde Laporte', job: 'Assistante polyvalente<br/>🐝 🍁 🧄', picture: 'images/pictures/new/Mathilde_Laporte_new.JPG' },
@@ -39,7 +39,11 @@ const news = [
   { id: 52, name: 'Célia Jésupret', job: `Éditrice d'espagnol<br/>🧉 🌻 🧡`, picture: 'images/pictures/new/Celia_Jesupret_new.jpeg' },
   { id: 31, name: 'Pauline Perrenoud', job: `Motion designer<br/>🌈 🍣 💄`, picture: 'images/pictures/new/Pauline_Perrenoud_new.jpeg' },
   { id: 1, name: 'Thomas Pottier', job: `Product Manager - SD<br/>🦖 💭 🍻`, picture: 'images/pictures/new/Thomas.Pottier_new.png' },
-  { id: 7, name: 'Yohann Rabatel', job: `Motion designer<br/>🎥 🍻 📚`, picture: 'images/pictures/new/Yohann_Rabatel_new.jpg' }
+  { id: 7, name: 'Yohann Rabatel', job: `Lead Développeur Squad Documentation<br/>🎥 🍻 📚`, picture: 'images/pictures/new/Yohann_Rabatel_new.jpg' },
+  { id: 8, name: 'Eléna Sonntag', job: `Product designer<br/>✨ 🎨 💃 🐱 🧁 ✈️`, picture: 'images/pictures/new/Eléna_ Sonntag_new.JPG' }, 
+  { id: 10, name: 'Jonathan Biteau', job: `Développeur Squad Communauté<br/>🍻 🌯 🍻`, picture: 'images/pictures/new/Jonathan_Biteau_new.jpg' }, 
+  { id: 14, name: 'Matthieu Brunerie', job: `Responsable QA<br/>🐛 🤿 🕵️‍♂️`, picture: 'images/pictures/new/Matthieu_Brunerie_new.jpg' }, 
+  { id: 16, name: 'Evan Wichlarz', job: `Développeur Squad Accompagnement<br/>₿ 📈 🕵️‍🍻`, picture: 'images/pictures/new/Evan_Wichlarz_new.png' }
 
 ]
 
