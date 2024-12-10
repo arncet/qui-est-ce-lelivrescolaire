@@ -97,10 +97,10 @@ const allNews = [
   { id: 95, name: 'Pauline Perrenoud', job: `Motion designer<br/>🌈 🍣 💄`, picture: 'images/pictures/new/Pauline_Perrenoud_new.jpeg' },
   { id: 96, name: 'Thomas Pottier', job: `Product Manager - SD<br/>🦖 💭 🍻`, picture: 'images/pictures/new/Thomas.Pottier_new.png' },
   { id: 97, name: 'Yohann Rabatel', job: `Motion designer<br/>🎥 🍻 📚`, picture: 'images/pictures/new/Yohann_Rabatel_new.jpg' }, 
-  { id: 98, name: 'Eléna Sonntag', job: `Product designer<br/>✨ 🎨 💃 🐱 🧁 ✈️`, picture: 'images/pictures/new/Eléna_ Sonntag_new.JPG' }, 
+  { id: 98, name: 'Eléna Sonntag', job: `Product designer<br/>✨ 🎨 💃 🐱 🧁 ✈️`, picture: 'images/pictures/new/Elena_Sonntag_new.JPG' }, 
   { id: 99, name: 'Jonathan Biteau', job: `Développeur Squad Communauté<br/>🍻 🌯 🍻`, picture: 'images/pictures/new/Jonathan_Biteau_new.jpg' }, 
   { id: 100, name: 'Matthieu Brunerie', job: `Responsable QA<br/>🐛 🤿 🕵️‍♂️`, picture: 'images/pictures/new/Matthieu_Brunerie_new.jpg' }, 
-  { id: 101, name: 'Evan Wichlarz', job: `Développeur Squad Accompagnement<br/>₿ 📈 🕵️‍🍻`, picture: 'images/pictures/new/Evan_Wichlarz_new.png' }
+  { id: 101, name: 'Evan Wichlarz', job: `Développeur Squad Accompagnement<br/>₿ 📈 🍻`, picture: 'images/pictures/new/Evan_Wichlarz_new.png' }
 
 ]
 
