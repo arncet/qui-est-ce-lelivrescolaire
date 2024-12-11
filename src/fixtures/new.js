@@ -41,7 +41,7 @@ const news = [
   { id: 1, name: 'Thomas Pottier', job: `Product Manager - SD<br/>🦖 💭 🍻`, picture: 'images/pictures/new/Thomas.Pottier_new.png' },
   { id: 7, name: 'Yohann Rabatel', job: `Lead Dev - SD<br/>🎥 🍻 📚`, picture: 'images/pictures/new/Yohann_Rabatel_new.jpg' },
   { id: 8, name: 'Eléna Sonntag', job: `Product designer<br/>✨ 🎨 💃 🐱 🧁 ✈️`, picture: 'images/pictures/new/Elena_Sonntag_new.JPG' }, 
-  { id: 10, name: 'Jonathan Biteau et Dorian 🦤', job: `Développeur - SC<br/>🍻 🌯 🍻`, picture: 'images/pictures/new/Jonathan_Biteau_new.jpg' }, 
+  { id: 10, name: 'Jonathan Biteau (et 🦤)', job: `Développeur - SC<br/>🍻 🌯 🍻`, picture: 'images/pictures/new/Jonathan_Biteau_new.jpg' }, 
   { id: 14, name: 'Matthieu Brunerie', job: `Responsable QA<br/>🐛 🤿 🕵️‍♂️`, picture: 'images/pictures/new/Matthieu_Brunerie_new.jpg' }, 
   { id: 16, name: 'Evan Wichlarz', job: `Développeur - SA<br/>₿ 📈 🍻`, picture: 'images/pictures/new/Evan_Wichlarz_new.png' }
 
