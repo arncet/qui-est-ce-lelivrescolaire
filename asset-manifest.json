@@ -1,17 +1,10 @@
 {
   "files": {
-    "main.js": "/qui-est-ce-lelivrescolaire/static/js/main.f6363b03.chunk.js",
-    "main.js.map": "/qui-est-ce-lelivrescolaire/static/js/main.f6363b03.chunk.js.map",
-    "runtime-main.js": "/qui-est-ce-lelivrescolaire/static/js/runtime-main.81dc935f.js",
-    "runtime-main.js.map": "/qui-est-ce-lelivrescolaire/static/js/runtime-main.81dc935f.js.map",
-    "static/js/2.636e8dae.chunk.js": "/qui-est-ce-lelivrescolaire/static/js/2.636e8dae.chunk.js",
-    "static/js/2.636e8dae.chunk.js.map": "/qui-est-ce-lelivrescolaire/static/js/2.636e8dae.chunk.js.map",
+    "main.js": "/qui-est-ce-lelivrescolaire/static/js/main.38db1637.js",
     "index.html": "/qui-est-ce-lelivrescolaire/index.html",
-    "static/js/2.636e8dae.chunk.js.LICENSE.txt": "/qui-est-ce-lelivrescolaire/static/js/2.636e8dae.chunk.js.LICENSE.txt"
+    "main.38db1637.js.map": "/qui-est-ce-lelivrescolaire/static/js/main.38db1637.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.81dc935f.js",
-    "static/js/2.636e8dae.chunk.js",
-    "static/js/main.f6363b03.chunk.js"
+    "static/js/main.38db1637.js"
   ]
 }
